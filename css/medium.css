@@ -1,0 +1,65 @@
+    @media (min-width: 32.5em) {
+        .header-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .navopen {
+            width: 30%;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .welcome {
+            position: relative;
+            left: 10px;
+            right: 10px;
+            bottom: 270px;
+            font-size: 50px;
+        }
+        .action {
+            position: relative;
+            left: 60px;
+            font-size: 30px;
+            bottom: 270px;
+            width: fit-content;
+            color: #EDFFEC;
+            background-color: #0D1321;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        #main_hero {
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        #main_news {
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+        #main_spotlight {
+            grid-column: 1/3;
+            grid-row: 3/4;
+            display: flex;
+            flex-direction: row;
+            height: 200px;
+        }
+        #main_spotlight div {
+            width: 49%;
+            height: 97%;
+        }
+        #main_join {
+            grid-column: 1/3;
+            grid-row: 4/5;
+            display: inline;
+        }
+        #main_event {
+            grid-column: 1/2;
+            grid-row: 5/6;
+        }
+        #main_weather {
+            grid-column: 2/3;
+            grid-row: 5/6;
+        }
+    }
