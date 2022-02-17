@@ -20,6 +20,17 @@
         bottom: 460px;
         font-size: 55px;
     }
+    .action {
+        position: relative;
+        left: 60px;
+        font-size: 25px;
+        bottom: 300px;
+        width: fit-content;
+        color: #EDFFEC;
+        background-color: #0D1321;
+        padding: 10px;
+        border-radius: 30px;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
