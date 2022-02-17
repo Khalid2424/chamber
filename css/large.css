@@ -31,6 +31,11 @@
         padding: 10px;
         border-radius: 30px;
     }
+    .event,
+    .event_2,
+    .event_3 {
+        font-size: 33px;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -80,6 +85,14 @@
         grid-column: 1/2;
         grid-row: 2/3;
         height: 97%;
+        width: 95%;
+    }
+    .link1,
+    .link2,
+    .link3,
+    .link4,
+    .link5 {
+        color: #247BA0;
     }
     footer {
         flex-flow: column;

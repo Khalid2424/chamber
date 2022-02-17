@@ -85,11 +85,7 @@ nav {
     position: relative;
     left: 60px;
     font-size: 25px;
-<<<<<<< HEAD
     bottom: 300px;
-=======
-    bottom: 270px;
->>>>>>> a0a5ecbc84d82874eb7a5e0ac221063557c7deed
     width: fit-content;
     color: #EDFFEC;
     background-color: #0D1321;
@@ -108,6 +104,10 @@ nav {
 
 #join {
     color: #EDFFEC;
+}
+
+.event {
+    padding: -20px;
 }
 
 .navigation a.ham::before {
@@ -149,19 +149,17 @@ ol {
     padding-inline-end: 10%;
 }
 
+main {
+    width: 103%;
+}
+
 main section {
-    border-style: solid;
-    border-width: 4px;
-    border-color: black;
     margin: 2px;
     width: 95%;
     height: 200px;
 }
 
 main section div {
-    border-style: solid;
-    border-width: 4px;
-    border-color: black;
     margin: 2px;
     height: 48.6%;
 }
@@ -171,12 +169,30 @@ main section div {
     width: 1100px;
 }
 
+#main_event {
+    background-color: #0D1321;
+    color: #EDFFEC;
+}
+
+#main_weather {
+    background-color: #0D1321;
+    color: #EDFFEC;
+}
+
+#main_news {
+    background-color: #0D1321;
+    color: #EDFFEC;
+}
+
 #main_spotlight {
     height: 400px;
+    background-color: #0D1321;
+    color: #EDFFEC;
 }
 
 #main_join {
     background-color: #0D1321;
+    width: 97%;
 }
 
 footer {
