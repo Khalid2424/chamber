@@ -85,7 +85,11 @@ nav {
     position: relative;
     left: 60px;
     font-size: 25px;
+<<<<<<< HEAD
     bottom: 300px;
+=======
+    bottom: 270px;
+>>>>>>> a0a5ecbc84d82874eb7a5e0ac221063557c7deed
     width: fit-content;
     color: #EDFFEC;
     background-color: #0D1321;
