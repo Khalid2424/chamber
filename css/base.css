@@ -166,7 +166,6 @@ main section div {
 
 #header-date {
     background-color: #09384d;
-    width: 1100px;
 }
 
 #main_event {
@@ -284,5 +283,4 @@ footer {
 
 #footerlink a:hover {
     color: #247BA0;
-}
 }

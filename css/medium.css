@@ -8,6 +8,10 @@
         .navopen {
             width: 30%;
         }
+        #header-date {
+            background-color: #09384d;
+            width: 975px;
+        }
         .logo {
             border: 40px;
             padding: 20px;
