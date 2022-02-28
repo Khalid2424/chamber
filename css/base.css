@@ -79,6 +79,7 @@ nav {
     right: 10px;
     bottom: 260px;
     font-size: 50px;
+    color: #040F16;
 }
 
 .action {
@@ -161,7 +162,6 @@ main section {
 
 main section div {
     margin: 2px;
-    height: 48.6%;
 }
 
 #header-date {
@@ -177,15 +177,17 @@ main section div {
 #main_weather {
     background-color: #0D1321;
     color: #EDFFEC;
+    height: 320px;
 }
 
 #main_news {
     background-color: #0D1321;
     color: #EDFFEC;
+    height: 380px;
 }
 
 #main_spotlight {
-    height: 400px;
+    height: 960px;
     background-color: #0D1321;
     color: #EDFFEC;
 }

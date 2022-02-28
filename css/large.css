@@ -59,8 +59,8 @@
         grid-row: 1/4;
         display: flex;
         flex-direction: column;
-        height: 99%;
-        width: 98%;
+        height: 99.1%;
+        width: 98.%;
         justify-items: center;
     }
     #main_spotlight div {
@@ -68,23 +68,20 @@
         height: 33%;
         margin-left: 10px;
     }
-    #spotlight_3 {
-        display: inline;
-    }
     #main_join {
         grid-column: 1/2;
         grid-row: 3/4;
-        height: auto;
+        height: 96.2%;
     }
     #main_event {
         grid-column: 1/2;
         grid-row: 1/2;
-        height: 96%;
+        height: 98.4%;
     }
     #main_weather {
         grid-column: 1/2;
         grid-row: 2/3;
-        height: 97%;
+        height: 97.2%;
         width: 95%;
     }
     .link1,
