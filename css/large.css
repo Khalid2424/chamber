@@ -64,7 +64,7 @@
         display: flex;
         flex-direction: column;
         height: 99.1%;
-        width: 98.%;
+        width: 98%;
         justify-items: center;
     }
     #main_spotlight div {
@@ -112,7 +112,7 @@
         flex-grow: 1;
     }
     #footer_bottom p {
-        flex-grow: 1;
+        flex-grow: 1px;
     }
     #footer_last {
         padding-bottom: 10px;
