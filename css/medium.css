@@ -252,4 +252,75 @@
             text-align: center;
             padding-top: 40px;
         }
+        /*----------- JOIN PRIMARY CSS --------------*/
+        .join_main {
+            display: flex;
+            flex-direction: column;
+            justify-items: auto;
+            align-items: center;
+            margin: 0 auto;
+        }
+        #membership_div,
+        #busform {
+            color: #0D1321;
+            font-size: 35px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        #mem_plan {
+            color: #0D1321;
+            font-size: 35px;
+            border-radius: 10px;
+            text-align: center;
+            margin-left: 100px;
+        }
+        #joinheadline {
+            color: #0D1321;
+            font-size: 55px;
+            text-align: center;
+        }
+        .submitBtn {
+            color: #EDFFEC;
+            background-color: #0D1321;
+            font-size: 35px;
+            border-radius: 30px;
+            text-align: center;
+        }
+        .center {
+            margin-left: 250px;
+        }
+        #membership_div {
+            border: 2px solid grey;
+        }
+        .text,
+        #description,
+        .tel,
+        .email,
+        .url {
+            border-radius: 10px;
+        }
+        .levels,
+        .levelpara {
+            margin: 5px;
+            font-size: 30px;
+        }
+        #membership {
+            margin: 8px;
+            font-size: 45px;
+        }
+        .mem_1,
+        .mem_2,
+        .mem_3,
+        .mem_4 {
+            display: flex;
+            flex-direction: row;
+            margin: 12px;
+            margin-left: 25px;
+        }
+        .radio_1,
+        .radio_2,
+        .radio_3,
+        .radio_4 {
+            margin: 11px;
+        }
     }

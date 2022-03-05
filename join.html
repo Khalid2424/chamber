@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of commerce website">
+    <title> Inland Valley Chamber</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="header-content">
+                <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
+                <section class="mainheading">
+                    <h1>Inland Valley Chamber of Commerce</h1>
+                </section>
+
+                <nav id="navigation" class="">
+                    <ul class="navigation">
+                        <li>
+                            <a class="ham" href="#"></a>
+                        </li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="">Directory</a></li>
+                        <li><a href="">Join</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li>
+                            <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
+                        </li>
+                        <li>
+                            <a id="icons" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="40"></a>
+                        </li>
+                    </ul>
+                    <script src="js/menu.js"></script>
+                </nav>
+
+            </div>
+            <div>
+                <section id="date-display">
+                    <h2 id="header-date"> </h2>
+                </section>
+                <section>
+                    <h2 id="bannermessage"></h2>
+                    <script src="js/date.js"></script>
+                </section>
+            </div>
+        </header>
+        <main class="join_main">
+            <h1 id="joinheadline">
+                Join the Inland Valley Chamber of Commerce!
+            </h1>
+            <div id="membership_div">
+                <h2 id="membership">Membership Levels</h2>
+                <h3 class="levels">Non-Profit Membership</h3>
+                <h4 class="levels">Price:<strong> Free!</strong></h4>
+                <p class="levelpara">The Non-Profit Membership provides access to membership of the chamber with just one spotlight per year. The goodnews? The Non-Profit Membership is free!</p>
+                <h3 class="levels"> Bronze Membership Plan</h3>
+                <h4 class="levels">Price: <strong>$250 per year</strong></h4>
+                <p class="levelpara">The Bronze Membership Plan gets businesses and startups a 10% discount on use of the Chamber of Commerce building for functions they would like to hold, including 3 spotlights and one news release on the Chamber of Commerce website per
+                    year. </p>
+                <h3 class="levels">The Silver Membership Plan</h3>
+                <h4 class="levels">Price: <strong>$350 per year</strong></h4>
+                <p class="levelpara">The Silver Membership Plan provides a 15% discount on use of the Chamber of Commerce building for functions, and 4 spotlights on the Chamber of Commerce website per year, with the choice of what month your business is featured!</p>
+                <h3 class="levels">Silver Membership Plan</h3>
+                <h4 class="levels">Price: <strong>$600 per year</strong></h4>
+                <p class="levelpara">The Bronze Membership Plan provides a 25% discount on use of the Chamber of Commerce building and 6 spotlights, with the member's choice of what month the spotlight is featured!</p>
+            </div>
+            <form method="get" action="thankyou.html">
+                <fieldset id="busform">
+                    <legend>
+                        Contact Information
+                    </legend>
+                    <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
+                    <label class="into">First Name * <input class="text" type="text" name="fname" placeholder="Sherlock" required></label>
+                    <label class="into">Last Name * <input  class="text" type="text" name="lname"  placeholder="Holmes" required></label>
+                    <label class="into">Position <input class="text" type="text" name="position" placeholder="Product Manager" pattern="([a-zA-Z -]+)" minlength="7"></label>
+                    <label class="into">Email * <input class="email" type="email" name="email" placeholder="myemail@gmail.com" required></label>
+                    <label class="into">Cell Phone * <input class="tel" type="tel" name="phone" placeholder="+2349077771659" required></label>
+                    <label class="into">Business Name * <input class="text" type="text" name="business" placeholder="Veronica's Diner" required></label>
+                    <label class="into">Website <input class="url" type="url" name="url" placeholder="http://www.VDiners.com"></label>
+                    <label class="into">Business Information <textarea id="description" name="description" rows="4" cols="50" placeholder="Kindly enter information about your business here."></textarea></label>
+                </fieldset>
+
+                <fieldset id="mem_plan">
+                    <legend>
+                        Membership Level
+                    </legend>
+                    <label class="mem_1"><input class="radio_1" type="radio" name="level" value="nonprofit"> Non-Profit Membership plan</label>
+                    <label class="mem_2"><input class="radio_2" type="radio" name="level" value="bronze"> Bronze Membership Plan</label>
+                    <label class="mem_3"><input class="radio_3" type="radio" name="level" value="silver"> Silver Membership Plan</label>
+                    <label class="mem_4"><input class="radio_4" type="radio" name="level" value="gold"> Gold Membership Membership Plan</label>
+                </fieldset>
+
+                <div class="center">
+                    <input class="submitBtn" type="submit" value="Join the Chamber!">
+                    <input type="hidden" id="current_date">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <section id="footer_top">
+                <div id="footer_logo">
+                    <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
+                </div>
+                <div id="footer_location">
+                    <h2>Inland Valley Chamber of Commerce</h2>
+                    <h3>15 Admiralty Way</h3>
+                    <h3>Inland valley, Australia 22813</h3>
+                </div>
+                <div id="footer_contact">
+                    <p>info@inlandvalley.org</p>
+                    <p>(+234) 90-777-1659</p>
+                    <p id="footerlink"><a href="https://goo.gl/maps/Tu4o8s2pz8Kx4hjH6">Location Map</a></p>
+                </div>
+            </section>
+
+            <hr id="footer_line">
+            <section id="footer_under">
+                <section id="footer_bottom">
+                    <p>&copy;<span id="year">2022</span> Inland Valley Chamber </p>
+                    <p>Elerunndu O. Victor</p>
+                    <p>WDD 230 Project</p>
+                </section>
+                <section id="footer_last">
+                    <p>Last Modified: <span id="lastModified"></span>
+                        <script>
+                            const d = new Date();
+                            document.getElementById("lastModified").innerHTML = d;
+                        </script>
+                    </p>
+                </section>
+            </section>
+        </footer>
+    </div>
+
+</body>
+
+</html>
