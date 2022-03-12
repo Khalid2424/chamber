@@ -27,10 +27,10 @@
                         <li>
                             <a class="ham" href="#"></a>
                         </li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
                         <li><a href="">Directory</a></li>
                         <li><a href="join.html">Join</a></li>
-                        <li><a href="">Contact</a></li>
                         <li>
                             <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
                         </li>
@@ -70,13 +70,15 @@
                 <p class="event_2">Join us for the ground opening of The Veronica's Diner, Friday at 3p.m. <a class="link1" href=""> more info....</a> </p>
             </section>
             <section id="main_weather">
-                <h2 class="weather_1"> Weather</h2>
-                <img class="weather_2" src="images/weather.webp" alt="weather icon" width="80" height="65">
-                <h3 class="weather_3"> Partly Cloudy</h3>
+                <h2 class="weather_1"> Inland Valley Weather</h2>
+                <figure><img alt="weather_icon" id="weathericon" />
+                    <figcaption id="weathercap"></figcaption>
+                </figure>
                 <hr class="weather_4">
-                <p>
-                    Temperature: 57&deg;F<br> Wind Speed: 25mph<br> Wind Chill: <span id="windchill"></span>&deg;F
-                </p>
+                <p class="temp">Temperature: <span id="temp"></span>&deg;F<br></p>
+                <p class="speed">Wind Speed: <span id="speed"></span> mph<br></p>
+                <p class="windchill">Wind Chill: <span id="windchill"></span></p>
+                <p class="humidity">Humidity: <span id="humidity"></span>%</p>
                 <script src="js/windchill.jsx">
                 </script>
 

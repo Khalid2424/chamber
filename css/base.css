@@ -186,6 +186,42 @@
         height: 320px;
     }
     
+    #weathercap {
+        font-size: 35px;
+        margin: -5px;
+    }
+    
+    #weathericon {
+        margin: -5px;
+    }
+    
+    .weather_4 {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
+    #temp,
+    #speed,
+    #windchill,
+    #humidity {
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+    
+    .temp {
+        font-size: 24px;
+        margin-top: 5px;
+        margin-bottom: -2px;
+    }
+    
+    .speed,
+    .windchill,
+    .humidity {
+        font-size: 24px;
+        margin-top: -2px;
+        margin-bottom: -2px;
+    }
+    
     #main_news {
         background-color: #0D1321;
         color: #EDFFEC;
@@ -367,7 +403,14 @@
         margin: 0 auto;
     }
     
-    #membership_div,
+    #membership_div {
+        color: #0D1321;
+        font-size: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: fit-content;
+    }
+    
     #busform {
         color: #0D1321;
         font-size: 35px;
@@ -378,9 +421,13 @@
     #mem_plan {
         color: #0D1321;
         font-size: 35px;
+        border: 2px solid grey;
         border-radius: 10px;
         text-align: center;
-        width: 450px;
+        margin-top: 15px;
+        width: 320px;
+        margin-left: 155px;
+        height: fit-content;
     }
     
     #joinheadline {
@@ -432,13 +479,19 @@
         display: flex;
         flex-direction: row;
         margin: 3px;
-        margin-left: 95px;
-        font-size: 28px;
+        margin-left: 30px;
+        font-size: 22px;
     }
     
     .radio_1,
     .radio_2,
     .radio_3,
     .radio_4 {
-        margin: 8px;
+        margin: 5px;
+    }
+    
+    .legend_1 {
+        font-size: 32px;
+        padding: 0px;
+        margin: 1px;
     }

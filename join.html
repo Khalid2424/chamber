@@ -27,10 +27,10 @@
                         <li>
                             <a class="ham" href="#"></a>
                         </li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
                         <li><a href="">Directory</a></li>
                         <li><a href="join.html">Join</a></li>
-                        <li><a href="">Contact</a></li>
                         <li>
                             <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
                         </li>
@@ -73,30 +73,30 @@
                 <p class="levelpara">The Bronze Membership Plan provides a 25% discount on use of the Chamber of Commerce building and 6 spotlights, with the member's choice of what month the spotlight is featured!</p>
             </div>
             <form method="get" action="thankyou.html">
-                <fieldset id="busform">
-                    <legend>
+                <div id="busform">
+                    <h2 class="contact">
                         Contact Information
-                    </legend>
+                    </h2>
                     <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
-                    <label class="into">First Name * <input class="text" type="text" name="fname" placeholder="Sherlock" required></label>
-                    <label class="into">Last Name * <input  class="text" type="text" name="lname"  placeholder="Holmes" required></label>
-                    <label class="into">Position <input class="text" type="text" name="position" placeholder="Product Manager" pattern="([a-zA-Z -]+)" minlength="7"></label>
-                    <label class="into">Email * <input class="email" type="email" name="email" placeholder="myemail@gmail.com" required></label>
-                    <label class="into">Cell Phone * <input class="tel" type="tel" name="phone" placeholder="+2349077771659" required></label>
-                    <label class="into">Business Name * <input class="text" type="text" name="business" placeholder="Veronica's Diner" required></label>
+                    <label class="into">First Name* <input class="text_1" type="text" name="fname" placeholder="Sherlock" required></label>
+                    <label class="into">Last Name* <input  class="text_2" type="text" name="lname"  placeholder="Holmes" required></label>
+                    <label class="into">Position <input class="text_3" type="text" name="position" placeholder="Product Manager" pattern="([a-zA-Z -]+)" minlength="7"></label>
+                    <label class="into">Email* <input class="email" type="email" name="email" placeholder="myemail@gmail.com" required></label>
+                    <label class="into">Cell Phone* <input class="tel" type="tel" name="phone" placeholder="+2349077771659" required></label>
+                    <label class="into">Business Name* <input class="text" type="text" name="business" placeholder="Veronica's Diner" required></label>
                     <label class="into">Website <input class="url" type="url" name="url" placeholder="http://www.VDiners.com"></label>
-                    <label class="into">Business Information <textarea id="description" name="description" rows="4" cols="50" placeholder="Kindly enter information about your business here."></textarea></label>
-                </fieldset>
+                    <label class="into_8">Business Information <textarea id="description" name="description" rows="4" cols="50" placeholder="Kindly enter information about your business here."></textarea></label>
+                </div>
 
-                <fieldset id="mem_plan">
-                    <legend>
+                <section id="mem_plan">
+                    <h2 class="legend_1">
                         Membership Level
-                    </legend>
+                    </h2>
                     <label class="mem_1"><input class="radio_1" type="radio" name="level" value="nonprofit"> Non-Profit Membership plan</label>
                     <label class="mem_2"><input class="radio_2" type="radio" name="level" value="bronze"> Bronze Membership Plan</label>
                     <label class="mem_3"><input class="radio_3" type="radio" name="level" value="silver"> Silver Membership Plan</label>
                     <label class="mem_4"><input class="radio_4" type="radio" name="level" value="gold"> Gold Membership Membership Plan</label>
-                </fieldset>
+                </section>
 
                 <div class="center">
                     <input class="submitBtn" type="submit" value="Join the Chamber!">
