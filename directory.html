@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of commerce website">
+    <title> Inland Valley Chamber</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="header-content">
+                <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
+                <section class="mainheading">
+                    <h1>Inland Valley Chamber of Commerce</h1>
+                </section>
+
+                <nav id="navigation" class="">
+                    <ul class="navigation">
+                        <li>
+                            <a class="ham" href="#"></a>
+                        </li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li>
+                            <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
+                        </li>
+                        <li>
+                            <a id="icons" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="40"></a>
+                        </li>
+                    </ul>
+                    <script src="js/menu.js"></script>
+                </nav>
+
+            </div>
+            <div>
+                <section id="date-display">
+                    <h2 id="header-date"> </h2>
+                </section>
+                <section>
+                    <h2 id="bannermessage"></h2>
+                    <script src="js/date.js"></script>
+                </section>
+            </div>
+        </header>
+
+
+
+
+        <footer>
+            <section id="footer_top">
+                <div id="footer_logo">
+                    <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
+                </div>
+                <div id="footer_location">
+                    <h2>Inland Valley Chamber of Commerce</h2>
+                    <h3>15 Admiralty Way</h3>
+                    <h3>Inland valley, Australia 22813</h3>
+                </div>
+                <div id="footer_contact">
+                    <p>info@inlandvalley.org</p>
+                    <p>(+234) 90-777-1659</p>
+                    <p id="footerlink"><a href="https://goo.gl/maps/Tu4o8s2pz8Kx4hjH6">Location Map</a></p>
+                </div>
+            </section>
+
+            <hr id="footer_line">
+            <section id="footer_under">
+                <section id="footer_bottom">
+                    <p>&copy;<span id="year">2022</span> Inland Valley Chamber </p>
+                    <p>Elerunndu O. Victor</p>
+                    <p>WDD 230 Project</p>
+                </section>
+                <section id="footer_last">
+                    <p>Last Modified: <span id="lastModified"></span>
+                        <script>
+                            const d = new Date();
+                            document.getElementById("lastModified").innerHTML = d;
+                        </script>
+                    </p>
+                </section>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>

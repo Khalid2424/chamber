@@ -405,10 +405,10 @@
     
     #membership_div {
         color: #0D1321;
-        font-size: 20px;
+        font-size: 8px;
         border-radius: 10px;
-        text-align: center;
-        width: fit-content;
+        text-align: justify;
+        width: 100px;
     }
     
     #busform {
@@ -420,7 +420,6 @@
     
     #mem_plan {
         color: #0D1321;
-        font-size: 35px;
         border: 2px solid grey;
         border-radius: 10px;
         text-align: center;
@@ -432,7 +431,7 @@
     
     #joinheadline {
         color: #0D1321;
-        font-size: 55px;
+        font-size: 30px;
         text-align: center;
     }
     
@@ -443,14 +442,11 @@
         border-radius: 20px;
         text-align: center;
         margin: 20px;
+        margin-right: 260px;
     }
     
     .center {
         margin-left: 200px;
-    }
-    
-    #membership_div {
-        border: 2px solid grey;
     }
     
     .text,
@@ -461,15 +457,36 @@
         border-radius: 10px;
     }
     
-    .levels,
+    #description {
+        width: 40px;
+    }
+    
+    .levels {
+        margin: 5px;
+        font-size: 23px;
+    }
+    
     .levelpara {
         margin: 5px;
-        font-size: 30px;
+        font-size: 12px;
     }
     
     #membership {
         margin: 8px;
         font-size: 45px;
+    }
+    
+    #asterisk {
+        font-size: 21px;
+    }
+    
+    .contact {
+        font-size: 22px;
+    }
+    
+    .into,
+    .into_8 {
+        font-size: 26px;
     }
     
     .mem_1,
@@ -480,7 +497,7 @@
         flex-direction: row;
         margin: 3px;
         margin-left: 30px;
-        font-size: 22px;
+        font-size: 12px;
     }
     
     .radio_1,
