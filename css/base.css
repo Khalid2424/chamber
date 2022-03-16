@@ -375,12 +375,12 @@
     .image_9 {
         border-radius: 10px;
         border: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
     
     .discimg[data-src] {
         filter: blur(0.5em);
-        width: 250px;
+        width: 150px;
     }
     
     .discimg {
