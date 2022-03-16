@@ -341,7 +341,7 @@
     font-size: 35px;
     border-radius: 10px;
     text-align: center;
-    margin-left: 122px;
+    margin-left: 142px;
     width: 480px;
 }
 
@@ -387,8 +387,17 @@
 .text_3,
 #description,
 .tel,
-.email,
+.email {
+    border-radius: 10px;
+    width: 220px;
+}
+
 .url {
+    border-radius: 10px;
+    width: 220px;
+}
+
+.text {
     border-radius: 10px;
     width: 220px;
 }
