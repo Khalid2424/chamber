@@ -43,6 +43,14 @@
         border-radius: 12px;
     }
     
+    .link1,
+    .link2,
+    .link3,
+    .link4,
+    .link5 {
+        color: #247BA0;
+    }
+    
     nav {
         margin: 0 auto;
         text-align: center;
