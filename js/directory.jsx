@@ -22,16 +22,18 @@ function displayDirectories(directory) {
     let p4 = document.createElement("p4");
     let p5 = document.createElement("p5");
     let p6 = document.createElement("p6");
+    let p7 = document.createElement("p7")
     let portrait = document.createElement("img");
 
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = directory.name;
-    p1.innerHTML = `${directory.streetaddress} ${directory.city}, ${directory.state} ${directory.zipcode}<br>`;
-    p2.innerHTML = `${directory.phone} <br>`;
-    p3.innerHTML = `${directory.website} <br>`;
-    p4.innerHTML = `<strong>Type: </strong>${directory.businesstype} <br>`;
-    p5.innerHTML = `<strong>Opened:</strong> ${directory.yearopened} <br>`;
-    p6.innerHTML = `<strong>Founder:</strong> ${directory.founder} <br>`;
+    p1.innerHTML = `${directory.streetaddress} ${directory.city}, ${directory.state} <br>`,
+        p2.innerHTML = `${directory.zipcode} <br>`;
+    p3.innerHTML = `${directory.phone} <br>`;
+    p4.innerHTML = `${directory.website} <br>`;
+    p5.innerHTML = `<strong>Type: </strong>${directory.businesstype} <br>`;
+    p6.innerHTML = `<strong>Opened:</strong> ${directory.yearopened} <br>`;
+    p7.innerHTML = `<strong>Founder:</strong> ${directory.founder} <br>`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', directory.imageurl);
@@ -47,6 +49,7 @@ function displayDirectories(directory) {
     card.appendChild(p4);
     card.appendChild(p5);
     card.appendChild(p6);
+    card.appendChild(p7);
 
 
     // Add/append the existing HTML div with the cards class with the section(card)

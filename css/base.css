@@ -180,6 +180,7 @@
     
     #header-date {
         background-color: #09384d;
+        width: 370px;
     }
     
     #main_event {
@@ -338,6 +339,10 @@
     }
     /*----------- DISCOVER PRIMARY CSS --------------*/
     
+    #main {
+        margin: auto;
+    }
+    
     #discover {
         font-family: dongle;
         font-size: 50px;
@@ -375,7 +380,7 @@
     .image_9 {
         border-radius: 10px;
         border: 30px;
-        padding-bottom: 30px;
+        margin-bottom: 180px;
     }
     
     .discimg[data-src] {
@@ -384,7 +389,7 @@
     }
     
     .discimg {
-        width: 250px;
+        width: 370px;
         filter: blur(0em);
         transition: filter 3s;
     }
@@ -406,17 +411,13 @@
     .join_main {
         display: flex;
         flex-direction: column;
-        justify-items: auto;
         align-items: center;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     
     #membership_div {
         color: #0D1321;
-        font-size: 8px;
-        border-radius: 10px;
-        text-align: justify;
-        width: 100px;
+        text-align: center;
     }
     
     #busform {
@@ -424,6 +425,7 @@
         font-size: 35px;
         border-radius: 10px;
         text-align: center;
+        border: 2px solid grey;
     }
     
     #mem_plan {
@@ -433,13 +435,13 @@
         text-align: center;
         margin-top: 15px;
         width: 320px;
-        margin-left: 155px;
+        margin-left: 172px;
         height: fit-content;
     }
     
     #joinheadline {
         color: #0D1321;
-        font-size: 30px;
+        font-size: 37px;
         text-align: center;
     }
     
@@ -461,40 +463,46 @@
     #description,
     .tel,
     .email,
-    .url {
+    .url,
+    .text_1,
+    .text_2,
+    .text_3 {
         border-radius: 10px;
+        width: 300px;
     }
     
     #description {
-        width: 40px;
+        width: 300px;
     }
     
     .levels {
-        margin: 5px;
-        font-size: 23px;
+        font-size: 29px;
     }
     
     .levelpara {
-        margin: 5px;
-        font-size: 12px;
+        font-size: 26px;
+        margin: auto;
     }
     
     #membership {
-        margin: 8px;
-        font-size: 45px;
+        font-size: 35px;
     }
     
     #asterisk {
-        font-size: 21px;
+        font-size: 28px;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
     
     .contact {
-        font-size: 22px;
+        font-size: 40px;
     }
     
     .into,
     .into_8 {
-        font-size: 26px;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     .mem_1,
@@ -505,7 +513,7 @@
         flex-direction: row;
         margin: 3px;
         margin-left: 30px;
-        font-size: 12px;
+        font-size: 25px;
     }
     
     .radio_1,
@@ -516,7 +524,7 @@
     }
     
     .legend_1 {
-        font-size: 32px;
+        font-size: 35px;
         padding: 0px;
         margin: 1px;
     }

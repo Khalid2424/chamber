@@ -5,12 +5,16 @@
         justify-content: center;
         align-items: center;
     }
+    .content {
+        width: fit-content;
+        margin: auto;
+    }
     .navopen {
         width: 30%;
     }
     #header-date {
         background-color: #09384d;
-        width: 900px;
+        width: 650px;
     }
     .logo {
         border: 40px;
@@ -19,7 +23,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 105%;
+        width: fit-content;
     }
     .link1,
     .link2,
@@ -61,7 +65,7 @@
         grid-row: 3/4;
         display: flex;
         flex-direction: row;
-        height: 380px;
+        height: 400px;
     }
     #main_spotlight div {
         width: 49%;
@@ -118,233 +122,382 @@
         margin-top: -2px;
         margin-bottom: -2px;
     }
+    /*----------- DISCOVER PRIMARY CSS --------------*/
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .image_1 {
+        grid-column: 1/2;
+        grid-row: 2/2;
+    }
+    .section_1 {
+        grid-column: 3/3;
+        grid-row: 2/2;
+    }
+    .image_2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .section_2 {
+        grid-column: 3/3;
+        grid-row: 2/3;
+    }
+    .image_3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .section_3 {
+        grid-column: 3/3;
+        grid-row: 3/4;
+    }
+    .image_4 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .section_4 {
+        grid-column: 3/3;
+        grid-row: 4/5;
+    }
+    .image_5 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .section_5 {
+        grid-column: 3/3;
+        grid-row: 5/6;
+    }
+    .image_6 {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .section_6 {
+        grid-column: 3/3;
+        grid-row: 6/7;
+    }
+    .image_7 {
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .section_7 {
+        grid-column: 3/3;
+        grid-row: 7/8;
+    }
+    .image_8 {
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+    .section_8 {
+        grid-column: 3/3;
+        grid-row: 8/9;
+    }
+    .image_9 {
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+    .section_9 {
+        grid-column: 3/3;
+        grid-row: 9/10;
+    }
+    .section_10 {
+        grid-column: 1/3;
+        grid-row: 10/11;
+    }
+    #discover {
+        font-family: dongle;
+        font-size: 60px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-left: 250px;
+    }
+    .section_1,
+    .section_2,
+    .section_3,
+    .section_4,
+    .section_5,
+    .section_6,
+    .section_7,
+    .section_8,
+    .section_9 {
+        font-family: dongle;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 20px;
+        background-color: #0D1321;
+        border-radius: 10px;
+        color: #EDFFEC;
+        align-items: center;
+    }
+    .section_10 {
+        font-family: dongle;
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+        background-color: #0D1321;
+        border-radius: 10px;
+        color: #EDFFEC;
+        align-items: center;
+    }
+    .image_1,
+    .image_2,
+    .image_3,
+    .image_4,
+    .image_5,
+    .image_6,
+    .image_7,
+    .image_8,
+    .image_9 {
+        border-radius: 10px;
+        margin-bottom: 200px;
+        margin-top: 29px;
+    }
+    .discimg[data-src] {
+        filter: blur(0.5em);
+        width: 400px;
+        height: 300px;
+    }
+    .discimg {
+        width: 400px;
+        height: 410px;
+        filter: blur(0em);
+        transition: filter 3s;
+    }
+    .discimg:hover {
+        filter: invert(20%);
+    }
+    #days {
+        background-color: #0D1321;
+        color: #EDFFEC;
+        font-size: 35px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    /*----------- JOIN PRIMARY CSS --------------*/
+    .join_main {
+        display: flex;
+        flex-direction: column;
+        justify-items: auto;
+        align-items: center;
+        margin: 0px;
+    }
+    #busform {
+        color: #0D1321;
+        font-size: 35px;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        border: 2px solid grey;
+        width: 620px;
+    }
+    #membership_div {
+        color: #0D1321;
+        font-size: 40px;
+        border-radius: 10px;
+        text-align: center;
+        width: 620px;
+        border: 2px solid grey;
+    }
+    #mem_plan {
+        color: #0D1321;
+        font-size: 40px;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 120px;
+        width: 480px;
+    }
+    #joinheadline {
+        color: #0D1321;
+        font-size: 40px;
+        text-align: center;
+    }
+    .submitBtn {
+        color: #EDFFEC;
+        background-color: #0D1321;
+        font-size: 35px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .center {
+        margin-left: 250px;
+    }
+    .contact {
+        font-size: 38px;
+        margin: 1px;
+    }
+    #asterisk {
+        font-size: 23px;
+    }
+    .into,
+    .into_8 {
+        font-size: 32px;
+    }
+    .text_1,
+    .text_2,
+    .text_3,
+    #description,
+    .tel,
+    .email {
+        border-radius: 10px;
+        width: 500px;
+    }
+    .url {
+        border-radius: 10px;
+        width: 500px;
+    }
+    .text {
+        border-radius: 10px;
+        width: 500px;
+    }
+    .into,
+    .into_8 {
+        margin-bottom: 1px;
+    }
+    #description {
+        width: 500px;
+    }
+    .levels {
+        margin: 5px;
+        font-size: 26px;
+    }
+    .levelpara {
+        margin: 5px;
+        font-size: 24px;
+    }
+    #membership {
+        margin: 8px;
+        font-size: 38px;
+    }
+    .mem_1,
+    .mem_2,
+    .mem_3,
+    .mem_4 {
+        display: flex;
+        flex-direction: row;
+        margin: 12px;
+        margin-left: 90px;
+        font-size: 29px;
+        width: 280px;
+    }
+    .radio_1,
+    .radio_2,
+    .radio_3,
+    .radio_4 {
+        margin: 6px;
+    }
+    .legend_1 {
+        font-size: 35px;
+    }
+    /*----------- DIRECTORY PRIMARY CSS --------------*/
+    .directory_main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #switchview {
+        margin-bottom: 50px;
+    }
+    .directoryhead {
+        font-size: 60px;
+    }
+    #cardbutton {
+        width: 50px;
+        height: 50px;
+        background-color: #d3e2e9;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    #cardbutton:hover {
+        background-color: rgb(11, 53, 116);
+    }
+    #listbutton {
+        width: 50px;
+        height: 50px;
+        background-color: #d3e2e9;
+        border-radius: 5px;
+    }
+    #listbutton:hover {
+        background-color: rgb(11, 53, 116);
+    }
+    .cardview {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .cardview section {
+        font-family: dongle;
+        color: #EDFFEC;
+        font-size: 30px;
+        background-color: #0D1321;
+        border: 2px solid grey;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 650px;
+    }
+    .cardview section:hover {
+        background-color: rgb(10, 33, 68);
+    }
+    .cardview section img {
+        margin-top: 35px;
+    }
+    /* ---- for LIST View ---- */
+    .listview section p5 {
+        display: none;
+    }
+    .listview section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    body>main>div>section:nth-child(3) {
+        display: block;
+    }
+    .listview section:nth-child(3) {
+        display: flex;
+    }
+    .listview section img {
+        display: none;
+    }
+    .listview section p7 {
+        display: none;
+    }
+    .listview section p1 {
+        font-size: 25px;
+        font-weight: 900;
+        display: block;
+    }
+    .listview section p2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .listview section p3 {
+        font-size: 26px;
+        font-weight: 900;
+    }
+    .listview section p4 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .listview section p6 {
+        font-size: 25px;
+        font-weight: 500;
+        padding-right: 5px;
+    }
+    .listview section h2 {
+        padding-left: 5px;
+    }
+    .listview section:nth-of-type(odd) {
+        background-color: #cbccc7;
+        width: 1100px;
+        border-radius: 10px;
+    }
 }
-
-
-/*----------- DISCOVER PRIMARY CSS --------------*/
-
-#discover {
-    font-family: dongle;
-    font-size: 60px;
-}
-
-.section_1,
-.section_2,
-.section_3,
-.section_4,
-.section_5,
-.section_6,
-.section_7,
-.section_8,
-.section_9 {
-    font-family: dongle;
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    margin-left: 1px;
-    padding-top: 15px;
-    margin-bottom: 50px;
-    background-color: #0D1321;
-    border-radius: 10px;
-    color: #EDFFEC;
-    align-items: center;
-}
-
-.section_10 {
-    font-family: dongle;
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
-    background-color: #0D1321;
-    border-radius: 10px;
-    color: #EDFFEC;
-    align-items: center;
-}
-
-.image_1,
-.image_2,
-.image_3,
-.image_4,
-.image_5,
-.image_6,
-.image_7,
-.image_8,
-.image_9 {
-    border-radius: 10px;
-    margin-bottom: 200px;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
-.discimg[data-src] {
-    filter: blur(0.5em);
-    width: 400px;
-}
-
-.discimg {
-    width: 400px;
-    filter: blur(0em);
-    transition: filter 3s;
-}
-
-.discimg:hover {
-    filter: invert(20%);
-}
-
-#days {
-    background-color: #0D1321;
-    color: #EDFFEC;
-    font-size: 35px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-
-/*----------- JOIN PRIMARY CSS --------------*/
-
-.join_main {
-    display: flex;
-    flex-direction: column;
-    justify-items: auto;
-    align-items: center;
-    margin: 0 auto;
-}
-
-#busform {
-    color: #0D1321;
-    font-size: 35px;
-    border-radius: 10px;
-    text-align: center;
-    margin: 15px;
-    border: 2px solid grey;
-    width: 350px;
-    margin-left: 183px;
-}
-
-#membership_div {
-    color: #0D1321;
-    font-size: 35px;
-    border-radius: 10px;
-    text-align: center;
-    width: 500px;
-}
-
-#mem_plan {
-    color: #0D1321;
-    font-size: 35px;
-    border-radius: 10px;
-    text-align: center;
-    margin-left: 142px;
-    width: 480px;
-}
-
-#joinheadline {
-    color: #0D1321;
-    font-size: 35px;
-    text-align: center;
-}
-
-.submitBtn {
-    color: #EDFFEC;
-    background-color: #0D1321;
-    font-size: 35px;
-    border-radius: 30px;
-    text-align: center;
-}
-
-.center {
-    margin-left: 250px;
-}
-
-#membership_div {
-    border: 2px solid grey;
-    width: 300px;
-}
-
-.contact {
-    font-size: 35px;
-    margin: 1px;
-}
-
-#asterisk {
-    font-size: 21px;
-}
-
-.into,
-.into_8 {
-    font-size: 26px;
-}
-
-.text_1,
-.text_2,
-.text_3,
-#description,
-.tel,
-.email {
-    border-radius: 10px;
-    width: 220px;
-}
-
-.url {
-    border-radius: 10px;
-    width: 220px;
-}
-
-.text {
-    border-radius: 10px;
-    width: 220px;
-}
-
-.into,
-.into_8 {
-    margin-bottom: 1px;
-}
-
-#description {
-    width: 200px;
-}
-
-.levels {
-    margin: 5px;
-    font-size: 26px;
-}
-
-.levelpara {
-    margin: 5px;
-    font-size: 22px;
-}
-
-#membership {
-    margin: 8px;
-    font-size: 35px;
-}
-
-.mem_1,
-.mem_2,
-.mem_3,
-.mem_4 {
-    display: flex;
-    flex-direction: row;
-    margin: 12px;
-    margin-left: 90px;
-    font-size: 25px;
-    width: 280px;
-}
-
-.radio_1,
-.radio_2,
-.radio_3,
-.radio_4 {
-    margin: 6px;
-}
-
-.legend_1 {
-    font-size: 35px;
-}
-
-
-/*----------- DIRECTORY PRIMARY CSS --------------*/

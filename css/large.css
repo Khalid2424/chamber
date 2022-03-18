@@ -145,7 +145,6 @@
         margin-right: -90%;
         margin-bottom: 20px;
     }
-    .section_1,
     .section_2,
     .section_3,
     .section_4,
@@ -160,7 +159,7 @@
         padding: 10px;
         margin: 50px;
         padding-top: 15px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         background-color: #0D1321;
         border-radius: 10px;
         color: #EDFFEC;
@@ -188,17 +187,16 @@
     .image_9 {
         border-radius: 10px;
         padding: 50px;
-        margin-bottom: 200px;
-    }
-    .image_1,
-    .section_1 {
-        margin-bottom: 150px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        margin-bottom: 0px;
     }
     .main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
+        margin: auto;
     }
     .image_1 {
         grid-column: 1/2;
@@ -207,6 +205,18 @@
     .section_1 {
         grid-column: 3/3;
         grid-row: 1/2;
+        margin-top: 150px;
+        font-family: dongle;
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+        margin: 50px;
+        padding-top: 15px;
+        margin-bottom: 100px;
+        background-color: #0D1321;
+        border-radius: 10px;
+        color: #EDFFEC;
+        align-items: center;
     }
     .image_2 {
         grid-column: 1/2;
@@ -445,7 +455,7 @@
         margin-right: 10px;
     }
     #cardbutton:hover {
-        background-color: #73a9e4;
+        background-color: rgb(11, 53, 116);
     }
     #listbutton {
         width: 50px;
@@ -454,24 +464,82 @@
         border-radius: 5px;
     }
     #listbutton:hover {
-        background-color: #73a9e4;
+        background-color: rgb(11, 53, 116);
     }
     .cardview {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
     }
     .cardview section {
         font-family: dongle;
+        color: #EDFFEC;
         font-size: 30px;
         background-color: #0D1321;
         border: 2px solid grey;
         border-radius: 10px;
         margin-top: 10px;
-        height: 600px;
+        height: 650px;
     }
     .cardview section:hover {
         background-color: rgb(10, 33, 68);
+    }
+    .cardview section img {
+        margin-top: 35px;
+    }
+    /* ---- for LIST View ---- */
+    .listview section p5 {
+        display: none;
+    }
+    .listview section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    body>main>div>section:nth-child(3) {
+        display: block;
+    }
+    .listview section:nth-child(3) {
+        display: flex;
+    }
+    .listview section img {
+        display: none;
+    }
+    .listview section p7 {
+        display: none;
+    }
+    .listview section p1 {
+        font-size: 25px;
+        font-weight: 900;
+        display: block;
+    }
+    .listview section p2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .listview section p3 {
+        font-size: 26px;
+        font-weight: 900;
+    }
+    .listview section p4 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .listview section p6 {
+        font-size: 25px;
+        font-weight: 500;
+        padding-right: 5px;
+    }
+    .listview section h2 {
+        padding-left: 5px;
+    }
+    .listview section:nth-of-type(odd) {
+        background-color: #cbccc7;
+        width: 1100px;
+        border-radius: 10px;
     }
 }
