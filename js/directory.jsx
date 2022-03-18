@@ -1,4 +1,4 @@
-const requestURL = "https://khalid2424.github.io/chamber/data/data.json";
+const requestURL = "https://Khalid2424.github.io/chamber/data/data.json";
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -35,7 +35,7 @@ function displayDirectories(directory) {
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', directory.imageurl);
-    portrait.setAttribute("alt", `Logo for ${directory.name}`);
+    portrait.setAttribute("alt", `Logo of ${directory.name}`);
     portrait.setAttribute('loading', 'lazy');
 
     // Add/append the section(card) with the h2 element

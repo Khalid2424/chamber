@@ -425,30 +425,5 @@
     .legend_1 {
         font-size: 38px;
     }
-    /*----------- JOIN PRIMARY CSS --------------*/
-    .cardview {
-        display: grid;
-        grid-template-columns: 32% 32% 32%;
-        justify-content: center;
-    }
-    .listview section p1 {
-        display: block;
-    }
-    .listview section p5 {
-        display: block;
-        font-size: 16px;
-        font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
-    }
-    .listview section {
-        padding: 0.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    body>main>div>section:nth-child(3) {
-        display: block;
-    }
-    .listview section:nth-child(3) {
-        display: flex;
-    }
+    /*-----------  PRIMARY CSS --------------*/
 }

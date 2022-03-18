@@ -348,8 +348,3 @@
 
 
 /*----------- DIRECTORY PRIMARY CSS --------------*/
-
-.cardview {
-    display: grid;
-    grid-template-columns: 49% 49%;
-}
