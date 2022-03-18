@@ -425,5 +425,53 @@
     .legend_1 {
         font-size: 38px;
     }
-    /*-----------  PRIMARY CSS --------------*/
+    /*----------- DIRECTORY PRIMARY CSS --------------*/
+    .directory_main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #switchview {
+        margin-bottom: 50px;
+    }
+    .directoryhead {
+        font-size: 60px;
+    }
+    #cardbutton {
+        width: 50px;
+        height: 50px;
+        background-color: #d3e2e9;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    #cardbutton:hover {
+        background-color: #73a9e4;
+    }
+    #listbutton {
+        width: 50px;
+        height: 50px;
+        background-color: #d3e2e9;
+        border-radius: 5px;
+    }
+    #listbutton:hover {
+        background-color: #73a9e4;
+    }
+    .cardview {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .cardview section {
+        font-family: dongle;
+        font-size: 30px;
+        background-color: #0D1321;
+        border: 2px solid grey;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 600px;
+    }
+    .cardview section:hover {
+        background-color: rgb(10, 33, 68);
+    }
 }
