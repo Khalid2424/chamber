@@ -1,4 +1,4 @@
-const requestURL = "https://github.com/Khalid2424/chamber/blob/main/data/data.json";
+const requestURL = "https://Khalid2424.github.io/chamber/data/data.json";
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)

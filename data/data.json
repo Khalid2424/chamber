@@ -1,6 +1,6 @@
 {
     "directory": [{
-            "imageurl": "https://github.com/Khalid2424/chamber/blob/main/images/spotlight_4.webp",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_4.webp",
             "name": "China Town Minimart",
             "streetaddress": "33, China Town",
             "city": "Inland Valley",
@@ -14,7 +14,7 @@
             "memberlevel": "Non-Profit"
         },
         {
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/mrplowtranslow.webp",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_5.webp",
             "name": "Big Sam's Burger and Fries",
             "streetaddress": "68, Inland Avenue",
             "city": "Inland Valley",
@@ -29,7 +29,7 @@
 
         },
         {
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/moestaverntranslow.webp",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_1.webp",
             "name": "Spencer's Real Estate",
             "streetaddress": "95, Business Avenue",
             "city": "In Valley",
@@ -43,7 +43,7 @@
             "memberlevel": "Gold"
         },
         {
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/fryingdutchman.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_2.webp",
             "name": "Code With Khalid",
             "streetaddress": "24, Business Avenue",
             "city": "Inland Valley",
@@ -57,7 +57,7 @@
             "memberlevel": "Silver"
         },
         {
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/leftorium.jpg",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_3.webp",
             "name": "suave's River Rafting",
             "streetaddress": "10, River-Side",
             "city": "Inland Valley",
@@ -82,7 +82,7 @@
             "businesstype": "Music Store",
             "yearopened": "1995",
             "founder": "Johnny Drille",
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hutzlaw.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_6.webp",
             "memberlevel": "Bronze"
 
         },
@@ -97,7 +97,7 @@
             "businesstype": "Restaurant and Bar",
             "yearopened": "2012",
             "founder": "Jeffrey Logain Ablar",
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kwikemart.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_7.webp",
             "memberlevel": "Gold"
         },
         {
@@ -111,7 +111,7 @@
             "businesstype": "Fast Food Restaurant",
             "yearopened": "1998",
             "founder": "Krudger Anubis",
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/krustyburger.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_8.webp",
             "memberlevel": "Gold"
 
         },
@@ -126,7 +126,7 @@
             "businesstype": "Barber Shop",
             "yearopened": "1999",
             "founder": "Coleman Richards",
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kingtoots.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_9.webp",
             "memberlevel": "Bronze"
         },
         {
@@ -140,7 +140,7 @@
             "businesstype": "Vintage Clothing Store",
             "yearopened": "2004",
             "founder": "Beyonda Philis",
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hoppingmad.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_10.webp",
             "memberlevel": "Gold"
         },
         {
@@ -154,7 +154,7 @@
             "businesstype": "Fitness Center",
             "yearopened": "2010",
             "founder": "Frosh Don",
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/allcreatures.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_11.webp",
             "memberlevel": "Silver"
         },
         {
@@ -168,7 +168,7 @@
             "businesstype": "Electronics Store",
             "yearopened": "2015",
             "founder": "Saat Tamir Yusuf",
-            "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/itblows.JPG",
+            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_12.webp",
             "memberlevel": "Non-Profit"
         }
     ]
