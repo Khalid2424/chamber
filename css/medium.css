@@ -345,3 +345,11 @@
 .legend_1 {
     font-size: 35px;
 }
+
+
+/*----------- DIRECTORY PRIMARY CSS --------------*/
+
+.cardview {
+    display: grid;
+    grid-template-columns: 49% 49%;
+}
