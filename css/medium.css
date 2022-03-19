@@ -25,6 +25,10 @@
         grid-template-columns: 1fr 1fr;
         width: fit-content;
     }
+    .image_medium {
+        width: 750px;
+        height: 200px;
+    }
     .link1,
     .link2,
     .link3,
