@@ -541,7 +541,7 @@
     }
     
     .directoryhead {
-        font-size: 40px;
+        font-size: 50px;
     }
     
     #cardbutton {
@@ -577,7 +577,7 @@
     .cardview section {
         font-family: dongle;
         color: #EDFFEC;
-        font-size: 30px;
+        font-size: 35px;
         background-color: #0D1321;
         border: 2px solid grey;
         border-radius: 10px;
@@ -685,6 +685,6 @@
     
     .listview section:nth-of-type(odd) {
         background-color: #cbccc7;
-        width: 750px;
+        width: 350px;
         border-radius: 10px;
     }
