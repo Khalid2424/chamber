@@ -689,3 +689,28 @@
         width: 350px;
         border-radius: 10px;
     }
+    
+    .contact_main {
+        display: flex;
+        flex-direction: column;
+        justify-items: auto;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    #thankspage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #joinheadline {
+        font-size: 65px;
+        margin-bottom: 0px;
+    }
+    
+    #thank {
+        text-align: center;
+        font-size: 35px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
