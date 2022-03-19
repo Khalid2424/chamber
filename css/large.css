@@ -489,6 +489,8 @@
     }
     .cardview section img {
         margin-top: 35px;
+        width: 250px;
+        height: 150px;
     }
     /* ---- for LIST View ---- */
     .listview section p5 {

@@ -430,8 +430,8 @@
     }
     .cardview {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-gap: 10px;
     }
     .cardview section {
@@ -449,6 +449,8 @@
     }
     .cardview section img {
         margin-top: 35px;
+        width: 250px;
+        height: 150px;
     }
     /* ---- for LIST View ---- */
     .listview section p5 {
@@ -475,24 +477,24 @@
         display: none;
     }
     .listview section p1 {
-        font-size: 25px;
-        font-weight: 900;
+        font-size: 22px;
+        font-weight: 700;
         display: block;
     }
     .listview section p2 {
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 500;
     }
     .listview section p3 {
         font-size: 26px;
-        font-weight: 900;
+        font-weight: 700;
     }
     .listview section p4 {
         font-size: 26px;
         font-weight: 500;
     }
     .listview section p6 {
-        font-size: 25px;
+        font-size: 26px;
         font-weight: 500;
         padding-right: 5px;
     }
@@ -501,7 +503,7 @@
     }
     .listview section:nth-of-type(odd) {
         background-color: #cbccc7;
-        width: 1100px;
+        width: 750px;
         border-radius: 10px;
     }
 }
