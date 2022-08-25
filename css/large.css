@@ -1,567 +1,304 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fruktur&family=Libre+Baskerville:wght@700&display=swap');
-@media (min-width: 64em) {
-    .mainheading {
-        max-width: 40%;
+@media only screen and (min-width: 1080px) {
+    header {
+        grid-template-columns: 40% auto 100px;
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+        font-size: 22;
+        position: static;
     }
-    .headernav {
-        justify-self: flex-end;
-        min-width: 50%;
-    }
-    .header-content {
+    nav ul {
+        list-style-type: none;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
-    #header-date {
-        background-color: #09384d;
-        width: 1100px;
+    nav button {
+        display: none;
     }
-    .welcome {
-        position: relative;
-        left: 10px;
-        right: 10px;
-        bottom: 460px;
-        font-size: 55px;
+    .primary {
+        grid-column: 2/3;
+        grid-row: 1;
+        place-self: center start;
+        width: 80%;
     }
-    .action {
-        position: relative;
-        left: 60px;
-        font-size: 25px;
-        bottom: 300px;
-        width: fit-content;
-        color: #EDFFEC;
-        background-color: #0D1321;
-        padding: 10px;
-        border-radius: 30px;
-    }
-    .event,
-    .event_2,
-    .event_3 {
-        font-size: 33px;
-    }
-    main {
+    nav ul#menu {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-items: center;
-        width: 100%;
+        grid-template-columns: repeat(5, minmax(50px, auto));
+        padding: 0;
+        padding-right: 100px;
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
     }
-    #main_hero {
-        grid-column: 2/4;
-        grid-row: 1/3;
-        width: 99%;
-        height: 98.3%;
+    .socials {
+        grid-column: 3/4;
+        padding-right: 35px;
+        grid-gap: 5px;
     }
-    #main_news {
-        grid-column: 2/4;
-        grid-row: 3/4;
-        width: 98%;
-        height: 96.2%;
+    .socials img {
+        width: 60px;
     }
-    #main_spotlight {
-        grid-column: 4/5;
-        grid-row: 1/4;
-        display: flex;
-        flex-direction: column;
-        height: 99.1%;
-        width: 98%;
-        justify-items: center;
+    .logo-container img {
+        width: 170px;
+        padding-left: 10px;
     }
-    #main_spotlight div {
-        width: 90%;
-        height: 33%;
-        margin-left: 10px;
+    header ul a {
+        display: inline;
     }
-    #main_join {
-        grid-column: 1/2;
-        grid-row: 3/4;
-        height: 96.2%;
+    header ul a:hover {
+        padding: 0;
     }
-    #main_event {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        height: 98.4%;
+    .active {
+        padding: 0;
     }
-    #main_weather {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        height: 97.2%;
-        width: 95%;
-    }
-    .link1,
-    .link2,
-    .link3,
-    .link4,
-    .link5 {
-        color: #247BA0;
+    .banner {
+        margin-bottom: -7px;
     }
     footer {
-        flex-flow: column;
-    }
-    #footer_top {
-        flex-direction: row;
-    }
-    #footer_under {
-        flex-direction: row;
-    }
-    #footer_bottom {
-        flex-direction: row;
-        padding-top: 10px;
-    }
-    #footer_under section {
-        flex-grow: 1;
-    }
-    #footer_bottom p {
-        flex-grow: 1px;
-    }
-    #footer_last {
-        padding-bottom: 10px;
-    }
-    ol {
-        padding-inline-start: 25%;
-    }
-    .navigation {
-        display: flex;
-    }
-    .navigation li {
-        display: block;
-        /* change state in small view */
-        flex: 1 1 auto;
-    }
-    .navigation a {
-        text-align: center;
-    }
-    .navigation li:first-child {
-        display: none;
-    }
-    /*----------- DISCOVER PRIMARY CSS --------------*/
-    #discover {
-        font-family: dongle;
-        font-size: 60px;
-        grid-column: 1/2;
-        grid-row: 1/2;
-        padding: 0%;
-        margin: 0%;
-        margin-top: 7px;
-        margin-right: -90%;
-        margin-bottom: 20px;
-    }
-    .section_2,
-    .section_3,
-    .section_4,
-    .section_5,
-    .section_6,
-    .section_7,
-    .section_8,
-    .section_9 {
-        font-family: dongle;
-        font-size: 30px;
-        text-align: center;
-        padding: 10px;
-        margin: 50px;
-        margin-top: 80px;
-        padding-top: 15px;
-        margin-bottom: 100px;
-        background-color: #0D1321;
-        border-radius: 10px;
-        color: #EDFFEC;
-        align-items: center;
-    }
-    .section_10 {
-        font-family: dongle;
-        font-size: 30px;
-        text-align: center;
-        padding: 10px;
-        margin-top: 80px;
-        background-color: #0D1321;
-        border-radius: 10px;
-        color: #EDFFEC;
-        align-items: center;
-    }
-    .image_1,
-    .image_2,
-    .image_3,
-    .image_4,
-    .image_5,
-    .image_6,
-    .image_7,
-    .image_8,
-    .image_9 {
-        border-radius: 10px;
-        padding: 50px;
-        padding-bottom: 47px;
-        padding-left: 0px;
-        margin-bottom: 100px;
-    }
-    .main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 0px;
-        margin: auto;
-    }
-    .image_1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .section_1 {
-        grid-column: 3/3;
-        grid-row: 1/2;
-        font-family: dongle;
-        font-size: 30px;
-        text-align: center;
-        padding: 10px;
-        margin: 50px;
-        margin-top: 78px;
-        padding-top: 15px;
-        margin-bottom: 100px;
-        background-color: #0D1321;
-        border-radius: 10px;
-        color: #EDFFEC;
-        align-items: center;
-    }
-    .image_2 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .section_2 {
-        grid-column: 3/3;
-        grid-row: 2/3;
-    }
-    .image_3 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    .section_3 {
-        grid-column: 3/3;
-        grid-row: 3/4;
-    }
-    .image_4 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-    .section_4 {
-        grid-column: 3/3;
-        grid-row: 4/5;
-    }
-    .image_5 {
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    .section_5 {
-        grid-column: 3/3;
-        grid-row: 5/6;
-    }
-    .image_6 {
-        grid-column: 1/2;
-        grid-row: 6/7;
-    }
-    .section_6 {
-        grid-column: 3/3;
-        grid-row: 6/7;
-    }
-    .image_7 {
-        grid-column: 1/2;
-        grid-row: 7/8;
-    }
-    .section_7 {
-        grid-column: 3/3;
-        grid-row: 7/8;
-    }
-    .image_8 {
-        grid-column: 1/2;
-        grid-row: 8/9;
-    }
-    .section_8 {
-        grid-column: 3/3;
-        grid-row: 8/9;
-    }
-    .image_9 {
-        grid-column: 1/2;
-        grid-row: 9/10;
-    }
-    .section_9 {
-        grid-column: 3/3;
-        grid-row: 9/10;
-    }
-    .section_10 {
-        grid-column: 1/3;
-        grid-row: 10/11;
-    }
-    .discimg[data-src] {
-        filter: blur(0.5em);
-        width: 500px;
-    }
-    .discimg {
-        width: 500px;
-        filter: blur(0em);
-        transition: filter 3s;
-    }
-    .discimg:hover {
-        filter: invert(20%);
-    }
-    #days {
-        background-color: #0D1321;
-        color: #EDFFEC;
-        font-size: 35px;
-        border-radius: 10px;
-        text-align: center;
-        padding-top: 40px;
-    }
-    /*----------- JOIN PRIMARY CSS --------------*/
-    .join_main {
-        display: flex;
-        flex-direction: column;
-        justify-items: auto;
-        align-items: center;
-    }
-    #mem_plan {
-        width: 600px;
-        margin-left: 65px;
-    }
-    #busform {
-        color: #0D1321;
-        font-size: 35px;
-        border-radius: 10px;
-        text-align: center;
-        width: 700px;
-        margin: 15px;
-    }
-    #membership_div {
-        border: 2px solid grey;
-        color: #0D1321;
-        font-size: 35px;
-        border-radius: 10px;
-        text-align: center;
-        width: 900px;
-    }
-    #joinheadline {
-        color: #0D1321;
-        font-size: 55px;
-        text-align: center;
-    }
-    .submitBtn {
-        color: #EDFFEC;
-        background-color: #0D1321;
-        font-size: 35px;
-        border-radius: 20px;
-        text-align: center;
-        margin: 30px;
-        align-items: center;
-    }
-    .center {
-        margin-left: 250px;
-    }
-    .text,
-    #description,
-    .tel,
-    .email,
-    .url {
-        border-radius: 10px;
-        margin-right: 0px;
-        width: 450px;
-    }
-    .text_1,
-    .text_2 {
-        border-radius: 10px;
-        margin-right: 0px;
-        width: 450px;
-    }
-    .text_3 {
-        border-radius: 10px;
-        margin-right: 0px;
-        width: 450px;
-    }
-    .email {
-        margin-right: 0px;
-        width: 450px;
-    }
-    .tel {
-        margin-right: 0px;
-        width: 450px;
-    }
-    .url {
-        margin-right: 0px;
-        width: 450px;
-    }
-    .levels,
-    .levelpara {
-        margin: 5px;
         font-size: 30px;
     }
-    #membership {
-        margin: 8px;
-        font-size: 45px;
-    }
-    .into {
-        margin: 24px;
-        margin-bottom: 1px;
-        text-align: center;
-    }
-    .into_8 {
-        margin: 20px;
-        margin-bottom: 1px;
-        text-align: center;
+    .contact img {
+        width: 100px;
+        margin-left: 50px;
     }
     .contact {
-        font-size: 40px;
-        margin: 1px;
+        margin-left: 220px;
     }
-    #asterisk {
-        font-size: 33px;
+    .address img {
+        padding-top: 45px;
+        display: block;
+        width: 30%;
+        margin: 0 auto;
     }
-    .into,
-    .into_8 {
-        font-size: 37px;
+    .address p {
+        margin-top: -25px;
+        text-align: center;
+        font-size: 30px;
     }
-    #description {
-        margin-left: 15px;
-        margin-bottom: 35px;
-        width: 450px;
+    .address h3 {
+        margin-top: -75px;
+        text-align: center;
     }
-    .mem_1,
-    .mem_2,
-    .mem_3,
-    .mem_4 {
+    .credit p {
+        font-size: 30px;
+    }
+    .fm,
+    .fb {
+        display: none;
+    }
+    .fl {
+        display: block;
+    }
+    .credit {
+        width: 1080px;
+    }
+    /* 
+      Main */
+    #main {
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+        background-color: transparent;
+        padding: 10px;
+        max-width: 1080px;
+    }
+    .event {
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2;
+        padding-top: 40px;
+    }
+    .join {
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+    .hero {
+        background-color: #2c7da0;
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+    .new {
+        grid-column: 2/4;
+        grid-row: 3;
+    }
+    .spot {
+        grid-column: 4;
+        grid-row: 1/4;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        padding: 10px;
+        width: 265px;
+    }
+    .spot div:nth-child(3) {
+        display: block;
+    }
+    .spot div:nth-child(1) {
+        margin-right: 0;
+    }
+    .spot div:nth-child(2) {
+        margin-left: 0;
+    }
+    .join {
+        display: block;
+    }
+    .spotlight1,
+    .spotlight2,
+    .spotlight3 {
+        text-align: center;
+        box-shadow: -2px -4px 23px 1px #012a4a;
+        width: inherit;
+    }
+    .underline {
+        display: flex;
+        border-bottom: 3px solid #012a4a;
+        margin: 0 25px;
+    }
+    .spotlight1 img,
+    .spotlight2 img,
+    .spotlight3 img {
+        width: 45%;
+    }
+    .spotlight1 h4 {
+        color: rgb(240, 240, 240);
+        margin: 17px 0;
+    }
+    .spotlight1 h5 {
+        font-family: "Dongle", sans-serif;
+        color: #012a4a;
+        font-size: 25px;
+        margin: 15px 45px;
+    }
+    .spot-email {
+        font-size: 25px;
+    }
+    .spot-number {
+        font-size: 22px;
+    }
+    /* 
+      
+      
+      Discovery Page 
+      
+      
+      */
+    #discovermain {
+        margin: 0 auto;
+        max-width: 1080px;
+    }
+    .top {
+        padding: 30px 90px 10px 90px;
+    }
+    .top h2,
+    .top p {
+        font-size: 1.7rem;
+    }
+    #gallery {
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1080px;
+        margin-bottom: 30px;
+        grid-gap: 1px;
+    }
+    #gallery div.blue {
+        padding: 65px 30px 0 30px;
+    }
+    #gallery div.light-blue {
+        padding: 65px 30px 0 30px;
+    }
+    #gallery p {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #gallery :nth-child(3) {
+        grid-column: 2/3;
+    }
+    #gallery :nth-child(4) {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    #gallery :nth-child(7) {
+        grid-column: 2/3;
+    }
+    #gallery :nth-child(8) {
+        grid-column: 1/2;
+        grid-row: 4;
+    }
+    #gallery :nth-child(11) {
+        grid-column: 2/3;
+    }
+    #gallery :nth-child(12) {
+        grid-column: 1/2;
+        grid-row: 6;
+    }
+    #gallery :nth-child(15) {
+        grid-column: 2/3;
+    }
+    #gallery :nth-child(16) {
+        grid-column: 1/2;
+        grid-row: 8;
+    }
+    /* ----------------Join Uyo Special Club -------------*/
+    #membership {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 220px;
+    }
+    .thanks {
+        margin: 40px auto 120px auto;
+    }
+    /* -------------------------------------Uyo Business Directory Page-----------------------------------------------*/
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        padding: 50px 50px;
+    }
+    .card address {
+        font-size: 1.4rem;
+    }
+    .card p {
+        margin-bottom: 1px;
+    }
+    .list tr {
         display: flex;
         flex-direction: row;
-        margin: 15px;
-        font-size: 35px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
-    .radio_1,
-    .radio_2,
-    .radio_3,
-    .radio_4 {
-        margin: 9px;
-    }
-    .legend_1 {
-        font-size: 38px;
-    }
-    /*----------- DIRECTORY PRIMARY CSS --------------*/
-    .directory_main {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    #switchview {
-        margin-bottom: 50px;
-    }
-    .directoryhead {
-        font-size: 60px;
-    }
-    #cardbutton {
-        width: 50px;
-        height: 50px;
-        background-color: #d3e2e9;
-        border-radius: 5px;
-        margin-right: 10px;
-    }
-    #cardbutton:hover {
-        background-color: rgb(11, 53, 116);
-    }
-    #listbutton {
-        width: 50px;
-        height: 50px;
-        background-color: #d3e2e9;
-        border-radius: 5px;
-    }
-    #listbutton:hover {
-        background-color: rgb(11, 53, 116);
-    }
-    .cardview {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap: 10px;
-    }
-    .cardview section {
-        font-family: dongle;
-        color: #EDFFEC;
-        font-size: 30px;
-        background-color: #0D1321;
-        border: 2px solid grey;
-        border-radius: 10px;
-        margin-top: 10px;
-        height: 650px;
-    }
-    .cardview section:hover {
-        background-color: rgb(10, 33, 68);
-    }
-    .cardview section img {
-        margin-top: 35px;
-        width: 250px;
-        height: 150px;
-    }
-    /* ---- for LIST View ---- */
-    .listview section p5 {
-        display: none;
-    }
-    .listview section {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    body>main>div>section:nth-child(3) {
-        display: block;
-    }
-    .listview section:nth-child(3) {
-        display: flex;
-    }
-    .listview section img {
-        display: none;
-    }
-    .listview section p7 {
-        display: none;
-    }
-    .listview section p1 {
-        font-size: 25px;
-        font-weight: 900;
-        display: block;
-    }
-    .listview section p2 {
+    /* ------------------------------ContactPage------------------------- */
+    .contact h3 {
         font-size: 28px;
-        font-weight: 500;
     }
-    .listview section p3 {
-        font-size: 26px;
-        font-weight: 900;
+    .contact h5 {
+        font-size: 18px;
     }
-    .listview section p4 {
-        font-size: 26px;
-        font-weight: 500;
-    }
-    .listview section p6 {
+    .contact p {
+        margin-top: 32px;
         font-size: 25px;
-        font-weight: 500;
-        padding-right: 5px;
     }
-    .listview section h2 {
-        padding-left: 5px;
+    .contact-address {
+        width: 50%;
     }
-    .listview section:nth-of-type(odd) {
-        background-color: #cbccc7;
-        width: 1100px;
-        border-radius: 10px;
+    .contact-address img {
+        width: 100%;
     }
-    .contact_main {
-        display: flex;
-        flex-direction: column;
-        justify-items: auto;
-        align-items: center;
-        margin-left: 0px;
+    .contact-card {
+        border-radius: 15px;
     }
-    #thankspage {
-        display: flex;
-        flex-direction: column;
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    #joinheadline {
-        font-size: 60px;
+    .contact-form {
+        width: 70%;
     }
-    #thank {
-        text-align: center;
-        font-size: 45px;
+    .envelop {
+        font-size: 300px;
+        height: 90%;
     }
 }

@@ -1,532 +1,191 @@
-@media (min-width: 31.5em) {
-    .header-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+@media only screen and (min-width: 545px) {
+    header {
+        grid-template-columns: 55% auto 120px;
     }
-    .content {
-        width: fit-content;
-        margin: auto;
+    nav.open ul {
+        top: 125px;
     }
-    .navopen {
-        width: 30%;
+    .socials img {
+        width: 60px;
     }
-    #header-date {
-        background-color: #09384d;
-        width: 650px;
+    .logo-container img {
+        width: 170px;
+        padding-left: 10px;
     }
-    .logo {
-        border: 40px;
-        padding: 20px;
-    }
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: fit-content;
-    }
-    .image_medium {
-        width: 750px;
-        height: 200px;
-    }
-    .link1,
-    .link2,
-    .link3,
-    .link4,
-    .link5 {
-        color: #247BA0;
-    }
-    .welcome {
-        position: relative;
-        left: 10px;
-        right: 10px;
-        bottom: 270px;
-        font-size: 50px;
-    }
-    .action {
-        position: relative;
-        left: 60px;
-        font-size: 30px;
-        bottom: 270px;
-        width: fit-content;
-        color: #EDFFEC;
-        background-color: #0D1321;
-        padding: 10px;
-        border-radius: 30px;
-    }
-    #main_hero {
-        grid-column: 1/3;
-        grid-row: 1/2;
-        margin: 10px;
-    }
-    #main_news {
-        grid-column: 1/3;
-        grid-row: 2/3;
-        height: 250px;
-    }
-    #main_spotlight {
-        grid-column: 1/3;
-        grid-row: 3/4;
-        display: flex;
-        flex-direction: row;
-        height: 400px;
-    }
-    #main_spotlight div {
-        width: 49%;
-        height: 97%;
-    }
-    #main_join {
-        grid-column: 1/3;
-        grid-row: 4/5;
-        display: inline;
-    }
-    #main_event {
-        grid-column: 1/2;
-        grid-row: 5/6;
-        height: 350px;
-    }
-    .event,
-    .event_1,
-    .event_2 {
-        margin: 22px;
-    }
-    #main_weather {
-        grid-column: 2/3;
-        grid-row: 5/6;
-        width: 90%;
-        height: 350px;
-    }
-    #weathercap {
-        font-size: 35px;
-        margin: -5px;
-    }
-    #weathericon {
-        margin: -5px;
-    }
-    .weather_4 {
-        margin-top: -10px;
-        margin-bottom: -10px;
-    }
-    #temp,
-    #speed,
-    #windchill,
-    #humidity {
-        margin-top: -30px;
-        margin-bottom: -30px;
-    }
-    .temp {
-        font-size: 24px;
-        margin-top: 5px;
-        margin-bottom: -2px;
-    }
-    .speed,
-    .windchill,
-    .humidity {
-        font-size: 24px;
-        margin-top: -2px;
-        margin-bottom: -2px;
-    }
-    /*----------- DISCOVER PRIMARY CSS --------------*/
-    .main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 5px;
-    }
-    .image_1 {
-        grid-column: 1/2;
-        grid-row: 2/2;
-    }
-    .section_1 {
-        grid-column: 3/3;
-        grid-row: 2/2;
-    }
-    .image_2 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .section_2 {
-        grid-column: 3/3;
-        grid-row: 2/3;
-    }
-    .image_3 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    .section_3 {
-        grid-column: 3/3;
-        grid-row: 3/4;
-    }
-    .image_4 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-    .section_4 {
-        grid-column: 3/3;
-        grid-row: 4/5;
-    }
-    .image_5 {
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    .section_5 {
-        grid-column: 3/3;
-        grid-row: 5/6;
-    }
-    .image_6 {
-        grid-column: 1/2;
-        grid-row: 6/7;
-    }
-    .section_6 {
-        grid-column: 3/3;
-        grid-row: 6/7;
-    }
-    .image_7 {
-        grid-column: 1/2;
-        grid-row: 7/8;
-    }
-    .section_7 {
-        grid-column: 3/3;
-        grid-row: 7/8;
-    }
-    .image_8 {
-        grid-column: 1/2;
-        grid-row: 8/9;
-    }
-    .section_8 {
-        grid-column: 3/3;
-        grid-row: 8/9;
-    }
-    .image_9 {
-        grid-column: 1/2;
-        grid-row: 9/10;
-    }
-    .section_9 {
-        grid-column: 3/3;
-        grid-row: 9/10;
-    }
-    .section_10 {
-        grid-column: 1/3;
-        grid-row: 10/11;
-    }
-    #discover {
-        font-family: dongle;
-        font-size: 60px;
-        padding: 0%;
-        margin: 0%;
-        margin-top: 7px;
-        margin-right: -90%;
-        margin-bottom: 20px;
-    }
-    .section_1,
-    .section_2,
-    .section_3,
-    .section_4,
-    .section_5,
-    .section_6,
-    .section_7,
-    .section_8,
-    .section_9 {
-        font-family: dongle;
-        font-size: 30px;
-        text-align: center;
-        padding: 5px;
-        margin-left: 0px;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        padding-top: 20px;
-        background-color: #0D1321;
-        border-radius: 10px;
-        color: #EDFFEC;
-        align-items: center;
-    }
-    .section_10 {
-        font-family: dongle;
-        font-size: 30px;
-        text-align: center;
-        padding: 10px;
-        margin-top: 15px;
-        background-color: #0D1321;
-        border-radius: 10px;
-        color: #EDFFEC;
-        align-items: center;
-    }
-    .image_1,
-    .image_2,
-    .image_3,
-    .image_4,
-    .image_5,
-    .image_6,
-    .image_7,
-    .image_8,
-    .image_9 {
-        border-radius: 10px;
-        margin-bottom: 200px;
-        margin-top: 29px;
-    }
-    .discimg[data-src] {
-        filter: blur(0.5em);
-        width: 400px;
-        height: 300px;
-    }
-    .discimg {
-        width: 400px;
-        height: 410px;
-        filter: blur(0em);
-        transition: filter 3s;
-    }
-    .discimg:hover {
-        filter: invert(20%);
-    }
-    #days {
-        background-color: #0D1321;
-        color: #EDFFEC;
-        font-size: 35px;
-        border-radius: 10px;
-        text-align: center;
-    }
-    /*----------- JOIN PRIMARY CSS --------------*/
-    .join_main {
-        display: flex;
-        flex-direction: column;
-        justify-items: auto;
-        align-items: center;
-        margin: 0px;
-    }
-    #busform {
-        color: #0D1321;
-        font-size: 35px;
-        border-radius: 10px;
-        text-align: center;
-        margin: auto;
-        border: 2px solid grey;
-        width: 620px;
-    }
-    #membership_div {
-        color: #0D1321;
-        font-size: 40px;
-        border-radius: 10px;
-        text-align: center;
-        width: 620px;
-        border: 2px solid grey;
-    }
-    #mem_plan {
-        color: #0D1321;
-        font-size: 40px;
-        border-radius: 10px;
-        text-align: center;
-        margin-left: 120px;
-        width: 480px;
-    }
-    #joinheadline {
-        color: #0D1321;
-        font-size: 40px;
-        text-align: center;
-    }
-    .submitBtn {
-        color: #EDFFEC;
-        background-color: #0D1321;
-        font-size: 35px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    .center {
-        margin-left: 250px;
-    }
-    .contact {
+    footer {
         font-size: 38px;
-        margin: 1px;
     }
-    #asterisk {
-        font-size: 23px;
+    .contact img {
+        width: 120px;
+        margin-left: 7px;
     }
-    .into,
-    .into_8 {
-        font-size: 32px;
+    .address img {
+        padding-top: 45px;
+        display: block;
+        width: 65%;
+        margin: 0 auto;
     }
-    .text_1,
-    .text_2,
-    .text_3,
-    #description,
-    .tel,
-    .email {
-        border-radius: 10px;
-        width: 500px;
+    .address p {
+        margin-top: -35px;
+        text-align: center;
+        font-size: 35px;
     }
-    .url {
-        border-radius: 10px;
-        width: 500px;
+    .address h3 {
+        margin-top: -75px;
+        text-align: center;
     }
-    .text {
-        border-radius: 10px;
-        width: 500px;
+    .credit p {
+        font-size: 35px;
     }
-    .into,
-    .into_8 {
-        margin-bottom: 1px;
+    /* 
+      MAin */
+    #main {
+        grid-template-columns: repeat(3, 1fr);
     }
-    #description {
-        width: 500px;
+    .hero {
+        grid-column: 1/4;
+        grid-row: 1;
     }
-    .levels {
-        margin: 5px;
-        font-size: 26px;
+    .new {
+        grid-column: 1/4;
+        grid-row: 2;
     }
-    .levelpara {
-        margin: 5px;
-        font-size: 24px;
+    .spot {
+        grid-column: 1/4;
+        grid-row: 3;
+        grid-template-columns: 1fr 1fr;
+    }
+    .spot div:nth-child(3) {
+        display: none;
+    }
+    .spot div:nth-child(1) {
+        margin-right: 3px;
+    }
+    .spot div:nth-child(2) {
+        margin-left: 3px;
+    }
+    .join {
+        display: block;
+        grid-column: 1/4;
+        grid-row: 4;
+        background-color: #2c7da0;
+    }
+    .event {
+        grid-column: 1/3;
+        grid-row: 5;
+    }
+    .weather {
+        grid-column: 3/4;
+        grid-row: 5;
+        padding-top: 60px;
+    }
+    /* 
+      
+      Discover Page 
+      
+      
+      */
+    #gallery {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    .top {
+        padding: 30px 50px 10px 50px;
+    }
+    .top h2,
+    .top p {
+        font-size: 1.7rem;
+    }
+    #gallery p {
+        font-size: 1.7rem;
+    }
+    #gallery div.blue {
+        padding: 35px 50px 40px 50px;
+    }
+    #gallery div.light-blue {
+        padding: 35px 50px 40px 50px;
+    }
+    #gallery img:hover {
+        transform: scale(1.05);
+    }
+    .blue h4,
+    .light-blue h4 {
+        font-size: 1.4rem;
+    }
+    /* ----------------Join Uyo Special Club -------------*/
+    #form {
+        margin: 0 auto 40px auto;
+        max-width: 700px;
+    }
+    #form h3 {
+        font-size: 25px;
+    }
+    .blockview input,
+    textarea {
+        width: 300px;
+        padding: 5px 5px;
     }
     #membership {
-        margin: 8px;
-        font-size: 38px;
-    }
-    .mem_1,
-    .mem_2,
-    .mem_3,
-    .mem_4 {
-        display: flex;
-        flex-direction: row;
-        margin: 12px;
-        margin-left: 90px;
-        font-size: 29px;
-        width: 280px;
-    }
-    .radio_1,
-    .radio_2,
-    .radio_3,
-    .radio_4 {
-        margin: 6px;
-    }
-    .legend_1 {
-        font-size: 35px;
-    }
-    /*----------- DIRECTORY PRIMARY CSS --------------*/
-    .directory_main {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    #switchview {
-        margin-bottom: 50px;
-    }
-    .directoryhead {
-        font-size: 60px;
-    }
-    #cardbutton {
-        width: 50px;
-        height: 50px;
-        background-color: #d3e2e9;
-        border-radius: 5px;
-        margin-right: 10px;
-    }
-    #cardbutton:hover {
-        background-color: rgb(11, 53, 116);
-    }
-    #listbutton {
-        width: 50px;
-        height: 50px;
-        background-color: #d3e2e9;
-        border-radius: 5px;
-    }
-    #listbutton:hover {
-        background-color: rgb(11, 53, 116);
-    }
-    .cardview {
+        margin-top: 15px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        padding-right: 30px;
+    }
+    .mtitle {
+        font-weight: 600;
+        font-size: 17px;
+        grid-column: 1 / span 2;
+    }
+    .sbs {
+        padding: 5px 0;
+        font-size: 16px;
+    }
+    #submitBtn {
+        padding: 5px 120px;
+        width: inherit;
+    }
+    td {
+        font-size: 15px;
+    }
+    /* -------------------------------------Uyo Business Directory Page-----------------------------------------------*/
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
+        padding: 25px 15px;
     }
-    .cardview section {
-        font-family: dongle;
-        color: #EDFFEC;
-        font-size: 30px;
-        background-color: #0D1321;
-        border: 2px solid grey;
-        border-radius: 10px;
-        margin-top: 10px;
-        height: 650px;
+    .card address {
+        padding: 0 45px;
+        margin-bottom: -15px;
     }
-    .cardview section:hover {
-        background-color: rgb(10, 33, 68);
+    .card p {
+        font-size: 1.3rem;
+        margin-bottom: -4px;
     }
-    .cardview section img {
+    .list tr {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        width: 100%;
+        justify-items: center;
+    }
+    /* ------------------------------ContactPage------------------------- */
+    .contact-page h3 {
         margin-top: 35px;
-        width: 250px;
-        height: 150px;
-    }
-    /* ---- for LIST View ---- */
-    .listview section p5 {
-        display: none;
-    }
-    .listview section {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    body>main>div>section:nth-child(3) {
-        display: block;
-    }
-    .listview section:nth-child(3) {
-        display: flex;
-    }
-    .listview section img {
-        display: none;
-    }
-    .listview section p7 {
-        display: none;
-    }
-    .listview section p1 {
-        font-size: 22px;
-        font-weight: 700;
-        display: block;
-    }
-    .listview section p2 {
-        font-size: 25px;
-        font-weight: 500;
-    }
-    .listview section p3 {
-        font-size: 26px;
-        font-weight: 700;
-    }
-    .listview section p4 {
-        font-size: 25px;
-        font-weight: 500;
-    }
-    .listview section p6 {
-        font-size: 26px;
-        font-weight: 500;
-        padding-right: 5px;
-    }
-    .listview section h2 {
-        padding-left: 5px;
-    }
-    .listview section:nth-of-type(odd) {
-        background-color: #cbccc7;
-        width: 750px;
-        border-radius: 10px;
-    }
-    .contact_main {
-        display: flex;
-        flex-direction: column;
-        justify-items: auto;
-        align-items: center;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-    #thankspage {
-        display: flex;
-        flex-direction: column;
-    }
-    #joinheadline {
-        font-size: 60px;
-    }
-    #thank {
         text-align: center;
-        font-size: 40px;
+        font-size: 24px;
+    }
+    .contact-page h5 {
+        font-size: 18px;
+    }
+    .contact-page p {
+        margin-top: 33px;
+        font-size: 26px;
+    }
+    .contact-form {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .envelop {
+        font-size: 200px;
+        height: 250px;
     }
 }

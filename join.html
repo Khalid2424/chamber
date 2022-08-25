@@ -2,146 +2,198 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of commerce website">
-    <title> Inland Valley Chamber</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--edit this later-->
+    <meta name="description" content="Ibadan Chamber of Commerce Join Page" />
+    <title>Ibadan Chamber of Commerce - Join</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
 </head>
 
-<body>
-    <div class="content">
-        <header>
-            <div class="header-content">
-                <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                <section class="mainheading">
-                    <h1>Inland Valley Chamber of Commerce</h1>
-                </section>
+<body id="content">
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong
+        >
+      </li>
+      <li>
+        <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="contact.html">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
 
-                <nav id="navigation" class="">
-                    <ul class="navigation">
-                        <li>
-                            <a class="ham" href="#"></a>
-                        </li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li>
-                            <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
-                        </li>
-                        <li>
-                            <a id="icons" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="40"></a>
-                        </li>
-                    </ul>
-                    <script src="js/menu.js"></script>
-                </nav>
+        <div class="date"></div>
 
+        <div class="banner">
+            <h4>
+                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </h4>
+        </div>
+    </header>
+
+    <main id="discovermain">
+        <div class="top">
+            <h2>Join Uyo Special Club</h2>
+            <p>
+                Living in Uyo is much more fun and interesting when you join our club. Signup today for Uyo Special Club and gain access to amazing city services available for premium member
+            </p>
+        </div>
+
+        <section id="form">
+            <h3>Uyo Special Club Application Form</h3>
+
+            <form action="thankyou.html" method="get">
+                <label class="blockview">First Name
+            <input type="text" placeholder="First name" name="fname" required
+          /></label>
+                <label class="blockview">Last Name
+            <input type="text" placeholder="Last name" name="lname" required
+          /></label>
+
+                <label class="blockview">Business Position
+            <input type="text" name="position" pattern="^[A-Za-z -]{7,}$"
+          /></label>
+
+                <label class="blockview">Email
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@example.com"
+              required
+          /></label>
+                <label class="blockview">Phone Number <input type="tel" name="tel" required
+          /></label>
+                <label class="blockview">Business Name <input type="text" name="businessname" required
+          /></label>
+
+                <div id="membership">
+                    <div class="mtitle">Membership Level</div>
+
+                    <div>
+                        <label class="sbs"><input id="free" type="radio" name="membership" />NP
+                Membership</label
+              >
+              <label class="sbs"
+                ><input id="bronze" type="radio" name="membership" />Bronze
+                Membership</label
+              >
+              <label class="sbs"
+                ><input id="silver" type="radio" name="membership" />Silver
+                Membership</label
+              >
+              <label class="sbs"
+                ><input id="gold" type="radio" name="membership" />Gold
+                Membership</label
+              >
             </div>
-            <div>
-                <section id="date-display">
-                    <h2 id="header-date"> </h2>
-                </section>
-                <section>
-                    <h2 id="bannermessage"></h2>
-                    <script src="js/date.js"></script>
-                </section>
-            </div>
-        </header>
-        <main class="join_main">
-            <h1 id="joinheadline">
-                Join the Inland Valley Chamber of Commerce!
-            </h1>
-            <div id="membership_div">
-                <h2 id="membership">Membership Levels</h2>
-                <h3 class="levels">Non-Profit Membership</h3>
-                <h4 class="levels">Price:<strong> Free!</strong></h4>
-                <p class="levelpara">The Non-Profit Membership provides access to membership of the chamber with just one spotlight per year. The goodnews? The Non-Profit Membership is free!</p>
-                <h3 class="levels"> Bronze Membership Plan</h3>
-                <h4 class="levels">Price: <strong>$250 per year</strong></h4>
-                <p class="levelpara">The Bronze Membership Plan gets businesses and startups a 10% discount on use of the Chamber of Commerce building for functions they would like to hold, including 3 spotlights and one news release on the Chamber of Commerce website per
-                    year. </p>
-                <h3 class="levels">The Silver Membership Plan</h3>
-                <h4 class="levels">Price: <strong>$350 per year</strong></h4>
-                <p class="levelpara">The Silver Membership Plan provides a 15% discount on use of the Chamber of Commerce building for functions, and 4 spotlights on the Chamber of Commerce website per year, with the choice of what month your business is featured!</p>
-                <h3 class="levels">Gold Membership Plan</h3>
-                <h4 class="levels">Price: <strong>$600 per year</strong></h4>
-                <p class="levelpara">The Gold Membership Plan provides a 25% discount on use of the Chamber of Commerce building and 6 spotlights, with the member's choice of what month the spotlight is featured!</p>
-            </div>
-            <form method="get" action="thankyou.html">
-                <div id="busform">
-                    <h2 class="contact">
-                        Contact Information
-                    </h2>
-                    <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
-                    <h4 class="into">First Name* </h4> <input class="text_1" type="text" name="fname" placeholder="James" required>
-                    <h4 class="into">Last Name*</h4> <input class="text_2" type="text" name="lname" placeholder="Spader" required>
-                    <h4 class="into">Position</h4><input class="text_3" type="text" name="position" placeholder="Software Engineer" pattern="([a-zA-Z -]+)" minlength="7">
-                    <h4 class="into">Email*</h4><input class="email" type="email" name="email" placeholder="myemail@gmail.com" required>
-                    <h4 class="into">Cell Phone*</h4><input class="tel" type="tel" name="phone" placeholder="+2349077771659" required>
-                    <h4 class="into">Business Name*</h4><input class="text" type="text" name="business" placeholder="Veronica's Diner" required>
-                    <h4 class="into">Website</h4><input class="url" type="url" name="url" placeholder="www.VDiners.com">
-                    <h4 class="into_8">Business Information</h4><textarea id="description" name="description" rows="4" cols="50" placeholder="Kindly enter information about your business here."></textarea>
-                </div>
 
-                <section id="mem_plan">
-                    <h2 class="legend_1">
-                        Membership Level
-                    </h2>
-                    <label class="mem_1"><input class="radio_1" type="radio" name="level" value="nonprofit"> NP Membership Plan</label>
-                    <label class="mem_2"><input class="radio_2" type="radio" name="level" value="bronze"> Bronze Membership Plan</label>
-                    <label class="mem_3"><input class="radio_3" type="radio" name="level" value="silver"> Silver Membership Plan</label>
-                    <label class="mem_4"><input class="radio_4" type="radio" name="level" value="gold"> Gold Membership Plan</label>
-                </section>
+            <div class="benefit">
+              <h5>Price: <span id="price"></span></h5>
+              <table>
+                <tr>
+                  <th>Benefits:</th>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td id="one">Website Ads</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td id="two">Free Meal</td>
+                </tr>
 
-                <div class="center">
-                    <input class="submitBtn" type="submit" value="Join the Chamber!">
-                    <input type="hidden" id="current_date">
-                </div>
+                <tr>
+                  <td></td>
+                  <td id="three">Website Ads</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <label class="blockview"
+            >Business Description
+            <textarea name="description" rows="4" cols="50"></textarea>
+          </label>
+                        <input type="hidden" id="time" name="time" />
+
+                        <input id="submitBtn" type="submit" value="Join Club" />
             </form>
-        </main>
+        </section>
+    </main>
 
-        <footer>
-            <section id="footer_top">
-                <div id="footer_logo">
-                    <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                </div>
-                <div id="footer_location">
-                    <h2>Inland Valley Chamber of Commerce</h2>
-                    <h3>15 Admiralty Way</h3>
-                    <h3>Inland valley, Ohio 200223</h3>
-                </div>
-                <div id="footer_contact">
-                    <p>info@inlandvalley.org</p>
-                    <p>(+234) 90-777-1659</p>
-                    <p id="footerlink"><a href="https://goo.gl/maps/3kKYTGvDEsUHw8PT6">Location Map</a></p>
-                </div>
-            </section>
-
-            <hr id="footer_line">
-            <section id="footer_under">
-                <section id="footer_bottom">
-                    <p>&copy;<span id="year">2022</span> Inland Valley Chamber </p>
-                    <p>Elerunndu O. Victor</p>
-                    <p>WDD 230 Project</p>
-                </section>
-                <section id="footer_last">
-                    <p>Last Modified: <span id="lastModified"></span>
-                        <script>
-                            const d = new Date();
-                            document.getElementById("lastModified").innerHTML = d;
-                        </script>
-                    </p>
-                </section>
-            </section>
-        </footer>
-    </div>
-
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+                <h3>Chamber of Commerce</h3>
+                <p>
+                    4 Agodi Gardens, Ibadan<br /> Oyo State, Nigeria
+                </p>
+                <p>
+                    +234-907-777-1659
+                </p>
+            </div>
+            <div class="contact">
+                <a href="mailto:info@ibadanchamber.com"><img src="images/email.PNG" alt="email" /></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.PNG" alt="email" /></a>
+                <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+                <a href="https://goo.gl/maps/HcazuXDALjwHDhrD6" target="_blank"><img src="images/location.png"></a>
+            </div>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber <br />
+          Elerunndu Victor Oluwapelumi <br />
+          WDD 230 Project <br />
+          Last Modification: <span class="fMod"></span>
+        </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+          Oluwapelumi | WDD 230 Project | <br />
+          Last Modification: <span class="fMod"></span>
+        </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+          Oluwapelumi | WDD 230 Project | Last Modification:
+          <span class="fMod"></span>
+        </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/benefits.js"></script>
 </body>
 
 </html>

@@ -2,104 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of commerce website">
-    <title> Inland Valley Chamber</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--edit this later-->
+    <meta name="description" content="Ibadan Chamber of Commerce Directory Page" />
+    <title>Ibadan Chamber of Commerce - Directory</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
 </head>
 
-<body>
-    <div class="content">
-        <header>
-            <div class="header-content">
-                <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                <section class="mainheading">
-                    <h1>Inland Valley Chamber of Commerce</h1>
-                </section>
+<body id="content">
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong
+            >
+          </li>
+          <li>
+            <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="contact.html">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
 
-                <nav id="navigation" class="">
-                    <ul class="navigation">
-                        <li>
-                            <a class="ham" href="#"></a>
-                        </li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li>
-                            <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
-                        </li>
-                        <li>
-                            <a id="icons" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="40"></a>
-                        </li>
-                    </ul>
-                    <script src="js/menu.js"></script>
-                </nav>
+        <div class="date"></div>
 
+        <div class="banner">
+            <h4>
+                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </h4>
+        </div>
+    </header>
+
+    <main id="discovermain">
+        <div class="business">
+            <h2>Uyo Business Directory</h2>
+        </div>
+
+        <div class="switch">
+            <button id="grid-view"><i class="fa-solid fa-table-cells"></i></button>
+            <button id="list-view"><i class="fa-solid fa-list"></i></button>
+        </div>
+
+        <div class="card-list"></div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+                <h3>Chamber of Commerce</h3>
+                <p>
+                    4 Agodi Gardens, Ibadan<br /> Oyo State, Nigeria
+                </p>
+                <p>
+                    +234-907-777-1659
+                </p>
             </div>
-            <div>
-                <section id="date-display">
-                    <h2 id="header-date"> </h2>
-                </section>
-                <section>
-                    <h2 id="bannermessage"></h2>
-                    <script src="js/date.js"></script>
-                </section>
+            <div class="contact">
+                <a href="mailto:info@ibadanchamber.com"><img src="images/email.PNG" alt="email" /></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.PNG" alt="email" /></a>
+                <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+                <a href="https://goo.gl/maps/HcazuXDALjwHDhrD6" target="_blank"><img src="images/location.png"></a>
             </div>
-        </header>
-
-        <main class="directory_main">
-            <h1 class="directoryhead"> Inland Valley Business Directory </h1>
-            <div id="switchview">
-                <button id="cardbutton" title="Card View"><span>⊞</span></button>
-                <button id="listbutton" title="List View"><span>≔</span></button>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber <br />
+            Elerunndu Victor Oluwapelumi <br />
+            WDD 230 Project <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | Last Modification:
+            <span class="fMod"></span>
+          </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+                </p>
             </div>
-            <div class="cards cardview"></div>
-            <script src="js/directory.jsx"></script>
-            <script src="js/cardview.js"></script>
-        </main>
-
-        <footer>
-            <section id="footer_top">
-                <div id="footer_logo">
-                    <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                </div>
-                <div id="footer_location">
-                    <h2>Inland Valley Chamber of Commerce</h2>
-                    <h3>15 Admiralty Way</h3>
-                    <h3>Inland valley, Ohio 200223</h3>
-                </div>
-                <div id="footer_contact">
-                    <p>info@inlandvalley.org</p>
-                    <p>(+234) 90-777-1659</p>
-                    <p id="footerlink"><a href="https://goo.gl/maps/3kKYTGvDEsUHw8PT6">Location Map</a></p>
-                </div>
-            </section>
-
-            <hr id="footer_line">
-            <section id="footer_under">
-                <section id="footer_bottom">
-                    <p>&copy;<span id="year">2022</span> Inland Valley Chamber </p>
-                    <p>Elerunndu O. Victor</p>
-                    <p>WDD 230 Project</p>
-                </section>
-                <section id="footer_last">
-                    <p>Last Modified: <span id="lastModified"></span>
-                        <script>
-                            const d = new Date();
-                            document.getElementById("lastModified").innerHTML = d;
-                        </script>
-                    </p>
-                </section>
-            </section>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+    <script src="https://kit.fontawesome.com/d98c5f4861.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

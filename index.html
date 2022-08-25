@@ -2,163 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of commerce website">
-    <title> Inland Valley Chamber </title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--edit this later-->
+    <meta name="description" content="Ibadan Chamber of Commerce Homepage" />
+    <title>Ibadan Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
 </head>
 
-<body>
-    <div class="content">
-        <header>
-            <div class="header-content">
-                <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                <section class="mainheading">
-                    <h1>Inland Valley Chamber of Commerce</h1>
-                </section>
+<body id="content">
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong
+            >
+          </li>
+          <li>
+            <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="contact.html">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
 
-                <nav id="navigation" class="">
-                    <ul class="navigation">
-                        <li>
-                            <a class="ham" href="#"></a>
-                        </li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li>
-                            <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
-                        </li>
-                        <li>
-                            <a id="icons" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="40"></a>
-                        </li>
-                    </ul>
-                    <script src="js/menu.js"></script>
-                </nav>
+        <div class="date"></div>
 
+        <div class="banner">
+            <h4>
+                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </h4>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="event">
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>
+                    <span class="event-date"> 30th March </span><br /> Masterpiece Walk Season 2
+                </li>
+                <li>
+                    <span class="event-date"> 11th April </span><br /> NBA UYO BRANCH BAR Week
+                </li>
+                <li>
+                    <span class="event-date"> 30th April </span><br /> Business Bootcamp & Networking
+                </li>
+            </ul>
+        </div>
+        <div class="weather">
+            <h5>Weather</h5>
+            <div class="icon">
+                <img id="icon" src="images/weather.png" alt="weather icon" loading="lazy" />
+                <p><span id="temp"></span>°C</p>
             </div>
-            <div>
-                <section id="date-display">
-                    <h2 id="header-date"> </h2>
-                </section>
-                <section>
-                    <h2 id="bannermessage"></h2>
-                    <script src="js/date.js"></script>
-                </section>
-            </div>
-        </header>
-        <main>
+            <p id="icon-desc"></p>
+            <hr class="temo-div" />
+            <p>Wind Speed: <span id="speed"></span>km/h</p>
+            <p id="chill-output"></p>
+        </div>
+        <div class="join">
+            <a href="join.html">
+                <picture class="hero-image">
+                    <source media="(max-width: 1079px)" srcset="images/joinus1079.png" />
+                    <img src="images/joinus260.png" alt="join uyo club" loading="lazy" /> </picture>
+            </a>
+        </div>
+        <div class="hero">
+            <picture class="hero-image">
+                <source media="(max-width: 500px)" srcset="images/hero500.jpg" />
+                <source media="(max-width: 1079px)" srcset="images/hero1079.jpg" />
+                <img src="images/hero540.jpg" alt="Image of Uyo" loading="lazy" />
+            </picture>
+        </div>
+        <div class="new">
+            <h3 class="news-release">News Release</h3>
+        </div>
 
-            <section id="main_hero">
-                <picture>
-                    <source class="image_medium" srcset="images/welcome_medium.webp" media="(min-width:500px) and (max-width: 1023px)">
-                    <source srcset="images/welcome_small.webp" media="(min-width:200px) and (max-width: 599px)">
-                    <img src="images/welcome_large.webp" alt="A view of Inland Valley ">
-                </picture>
-                <p class="welcome"><strong>Welcome to Inland Valley</strong></p>
-                <a class="action" href="join.html">Join the Chamber</a>
-            </section>
-            <section id="main_event">
-                <h2 class="event">Ribbon Cutting</h2>
-                <h2 class="event_1"> The Veronica's Diner 🥰</h2>
-                <img class="event_3" src="images/event.webp" alt="Veronica's diner logo" width="80" height="65">
-                <p class="event_2">Join us for the ground opening of The Veronica's Diner, Friday at 3p.m. <a class="link1" href=""> more info....</a> </p>
-            </section>
-            <section id="main_weather">
-                <h2 class="weather_1"> Inland Valley Weather</h2>
-                <figure><img src="" alt="weather_icon" id="weathericon" />
-                    <figcaption id="weathercap"></figcaption>
-                </figure>
-                <hr class="weather_4">
-                <p class="temp">Temperature: <span id="temp"></span>&deg;F<br></p>
-                <p class="speed">Wind Speed: <span id="speed"></span> mph<br></p>
-                <p class="windchill">Wind Chill: <span id="windchill"></span></p>
-                <p class="humidity">Humidity: <span id="humidity"></span>%</p>
-                <script src="js/windchill.jsx">
-                </script>
+        <div class="spot"></div>
+    </main>
 
-            </section>
-            <section id="main_news">
-                <h3> News Release</h3>
-                <p> The Statistics and Population Ministry of Inland Valley has released a detailed report for 2021 "The population of the Inland Valley stands at 58,000 with a total number of 1080 deaths, and 2800 newborns in the town as at December 2021.
-                    The number of private businesses in the valley stands at 8,692 with 758 new businesses as of December 2021. The Inland Valley spent $458 Million in imports and exports for the year 2021 leaving her treasury at $567 Million with 30%
-                    increase in the last 12 months." <a class="link2" href="">Read more here...</a>
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+                <h3>Chamber of Commerce</h3>
+                <p>
+                    4 Agodi Gardens, Ibadan<br /> Oyo State, Nigeria
                 </p>
-            </section>
-            <section id="main_join">
-                <p id="join"> Discover how to join the chamber of commerce and how it will benefit your organization! </p>
-                <a class="join" href="join.html">Join Us!</a>
-            </section>
-            <section id="main_spotlight">
-                <div>
-                    <h3>Spencer's Real Estate</h3>
-                    <img src="images/spotlight_1.webp" alt="real estate icon" width="70" height="70">
-                    <p> Real prices you can trust!</p>
-                    <a class="link3" href="">www.realestatewithspencer.com</a>
-                    <p> Tel: +234-810-234-9581</p>
-                    <hr class="">
-                </div>
-                <div>
-                    <h3>Code with Khalid</h3>
-                    <img src="images/spotlight_2.webp" alt="coding icon" width="70" height="70">
-                    <p>An intensive programming class</p>
-                    <a class="link4" href="">www.codewithkhalid.com</a>
-                    <p> Tel: +234-907-777-1659</p>
-                    <hr class="">
-                </div>
-                <div>
-                    <h3>Suave's River Rafting</h3>
-                    <img src="images/spotlight_3.webp" alt="river rafting icon" width="70" height="70">
-                    <p>One of a kind Adventure!</p>
-                    <a class="link5" href="">www.adventurewithsuave.com</a>
-                    <p> Tel: +234-704-123-0319</p>
-                    <hr class="">
-                </div>
-            </section>
-
-        </main>
-        <footer>
-            <section id="footer_top">
-                <div id="footer_logo">
-                    <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                </div>
-                <div id="footer_location">
-                    <h2>Inland Valley Chamber of Commerce</h2>
-                    <h3>15 Admiralty Way</h3>
-                    <h3>Inland valley, Ohio 200223</h3>
-                </div>
-                <div id="footer_contact">
-                    <p>info@inlandvalley.org</p>
-                    <p>(+234) 90-777-1659</p>
-                    <p id="footerlink"><a href="https://goo.gl/maps/3kKYTGvDEsUHw8PT6">Location Map</a></p>
-                </div>
-            </section>
-
-            <hr id="footer_line">
-            <section id="footer_under">
-                <section id="footer_bottom">
-                    <p>&copy;<span id="year">2022</span> Inland Valley Chamber </p>
-                    <p>Elerunndu O. Victor</p>
-                    <p>WDD 230 Project</p>
-                </section>
-                <section id="footer_last">
-                    <p>Last Modified: <span id="lastModified"></span>
-                        <script>
-                            const d = new Date();
-                            document.getElementById("lastModified").innerHTML = d;
-                        </script>
-                    </p>
-                </section>
-            </section>
-        </footer>
-    </div>
-
+                <p>
+                    +234-907-777-1659
+                </p>
+            </div>
+            <div class="contact">
+                <a href="mailto:info@ibadanchamber.com"><img src="images/email.PNG" alt="email" /></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.PNG" alt="email" /></a>
+                <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+                <a href="https://goo.gl/maps/HcazuXDALjwHDhrD6" target="_blank"><img src="images/location.png"></a>
+            </div>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber <br />
+            Elerunndu Victor Oluwapelumi <br />
+            WDD 230 Project <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | Last Modification:
+            <span class="fMod"></span>
+          </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+    <script src="js/windchill.js" defer></script>
+    <script src="./js/spotlight.js" defer></script>
 </body>
 
 </html>

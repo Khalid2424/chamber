@@ -2,216 +2,202 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of commerce website">
-    <title> Inland Valley Chamber</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--edit this later-->
+    <meta name="description" content="Ibadan Chamber of Commerce Discovery Page" />
+    <title>Ibadan Chamber of Commerce - Discover</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="icon" href="images/favicon.ico" />
 </head>
 
-<body>
-    <div class="content">
-        <header>
-            <div class="header-content">
-                <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                <section class="mainheading">
-                    <h1>Inland Valley Chamber of Commerce</h1>
-                </section>
+<body id="content">
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+            <h3>Chamber of Commerce</h3>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong
+            >
+          </li>
+          <li>
+            <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+                <li>
+                    <strong><a id="contact" href="contact.html">Contact</a></strong>
+                </li>
+            </ul>
+        </nav>
 
-                <nav id="navigation" class="">
-                    <ul class="navigation">
-                        <li>
-                            <a class="ham" href="#"></a>
-                        </li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li>
-                            <a id="icon" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="40"></a>
-                        </li>
-                        <li>
-                            <a id="icons" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="40"></a>
-                        </li>
-                    </ul>
-                    <script src="js/menu.js"></script>
-                </nav>
+        <div class="date"></div>
 
+        <div class="banner">
+            <h4>
+                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+            </h4>
+        </div>
+    </header>
+
+    <main id="discovermain">
+        <div class="top">
+            <h2>Discover Uyo</h2>
+            <p>
+                Visiting a city for the first time can be difficult and confusing, Here are some of the most exciting places in uyo you should be eager to visit. They include historical sites, cultural buildings, beach, mall and even a learning site.
+            </p>
+
+            <h5>Days Since Last Visits: <span class="visits"></span></h5>
+        </div>
+
+        <section id="gallery">
+            <img class="overlay" src="images/placeholder.png" data-src="images/hall800.jpg" alt="Ibom Hall" />
+
+            <div class="blue">
+                <h4>Ibom Mall</h4>
+                <p>
+                    This is a state-owned event centre where social, economic and political events are hosted. A magnificent structure with state-of-art facilities, the hall has played host to a number of important events. It is also a popular landmark in the town.It is
+                    located at IBB Avenue,uyo
+                </p>
             </div>
-            <div>
-                <section id="date-display">
-                    <h2 id="header-date"> </h2>
-                </section>
-                <section>
-                    <h2 id="bannermessage"></h2>
-                    <script src="js/date.js"></script>
-                </section>
+
+            <img src="images/placeholder.png" data-src="images/lemeridien800.jpg" alt="Le Meridien" />
+            <div class="light-blue">
+                <h4>Le Meridien Resort</h4>
+                <p>
+                    Ibom Icon Hotel & Golf Resort has rooms decorated with lush essence and comfort. They are categorised into Executive Room, Honeymoon Package, Deluxe Room, Junior Suite, Executive Suite and Diplomatic. The rooms are equipped with air conditioners, and
+                    more
+                </p>
             </div>
-        </header>
 
+            <img src="images/placeholder.png" data-src="images/ibeno800.jpg" alt="Ibeno Beach" />
+            <div class="light-blue">
+                <h4>Ibeno Beach</h4>
+                <p>
+                    Ibeno Beach stretches for about 30 kilometres from Ibeno to James Town along the Atlantic coastline of Akwa Ibom State in Nigeria. It is said to be the longest beach in West Africa. With its beautiful coastline, Ibeno provides endless natural facilities
+                    for tourism, water sporting, beach soccer and general boating.
+                </p>
+            </div>
 
-        <main class="main">
-            <h2 id="discover">
-                Discover the Inland Valley!
-            </h2>
-            <section class="image_1">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/image_1.webp" alt="woman posing for a photo" />
-                    <source srcset="images/image_1.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_1.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_1">
-                <p class="disccontentbox discdesc">
-                    The home of businesses, startups and other commercial ativities. Inland Valley boasts of an optimum business environment, great tools to aid your business! It's business and business!
+            <img src="images/placeholder.png" data-src="images/museum800.jpg" alt="Ibom Museum" />
+            <div class="blue">
+                <h4>Ibom Museum</h4>
+                <p>
+                    This edifice is located in the city of Uyo, in the famous Udo Udoma Avenue. The museum has a notable collection of historic pictures and it was an inspiration of Arc Victor Attah the past Governor of Akwa Ibom state. It was commission by Arc (Obong) Victor
+                    Attah on Tuesday, 22nd May 2007
                 </p>
-            </section>
-            <section class="image_2">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/Image_2.webp" alt="a boy playing the violin" />
-                    <source srcset="images/image_2.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_2.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_2">
-                <p class="disccontentbox discdesc">
-                    The absence of rich music in a culture? Something would definitely go wrong. Welcome to Inland Valley, a home of rich music, operas and theatres. Just everything you need.
-                </p>
-            </section>
-            <section class="image_3">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/Image_3.webp" alt="country side view" />
-                    <source srcset="images/image_3.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_3.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_3">
-                <p class="disccontentbox discdesc">
-                    With amazing and epic landscapes, countrysides and great view, Your passion for pictures would be on the rise. Taking hikes, walks would seem like the right thing to do all day!
-                </p>
-            </section>
-            <section class="image_4">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/Image_4.webp" alt="street in between building" />
-                    <source srcset="images/image_4.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_4.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_4">
-                <p class="disccontentbox discdesc">
-                    Highrise buildings and excellent streets dot the environs of Inland Valley. Buildings for various purposes such as offices, restaurants, apartments readily available upon request.
-                </p>
-            </section>
-            <section class="image_5">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/Image_5.webp" alt="borough market" />
-                    <source srcset="images/image_5.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_5.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_5">
-                <p class="disccontentbox discdesc">
-                    With the best market produce in the country, the Inland Valley boasts of the best market and produce. These wonderful markets dot the streets of the valley with the best prices you can ever think of!
-                </p>
-            </section>
-            <section class="image_6">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/Image_6.webp" alt="a girl sitting on a tree" />
-                    <source srcset="images/image_6.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_6.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_6">
-                <p class="disccontentbox discdesc">
-                    Located in the midst of 9 rivers and the ocean, there is no end to the river experience and amazing boat cruise available at your door steps. Come connect with mother nature in Inland Valley!
-                </p>
-            </section>
-            <section class="image_7">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/Image_7.webp" alt="inside a restaurant" />
-                    <source srcset="images/image_7.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_7.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_7">
-                <p class="disccontentbox discdesc">
-                    There are no shortages of local eateries, restaurant, sit-outs, and even food spots! Inland Valley has some of the most restaurants per capita in the country, where you can wet your appetite as much as you want.
-                </p>
-            </section>
-            <section class="image_8">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/Image_8.webp" alt="view of a restaurant" />
-                    <source srcset="images/image_8.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_8.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_8">
-                <p class="disccontentbox discdesc">
-                    There are no shortages of local eateries, restaurant, sit-outs, and even food spots! Inland Valley has some of the most restaurants per capita in the country, where you can wet your appetite as much as you want.
-                </p>
-            </section>
-            <section class="image_9">
-                <picture>
-                    <img class="discimg" src="images/placeholder.webp" data-src="images/image_9.webp" alt="a football stadium" />
-                    <source srcset="images/image_9.webp" media="(min-width: 37.6em) and (max-width: 59.9em)">
-                    <source srcset="images/image_9.webp" media="(min-width: 60em)">
-                </picture>
-            </section>
-            <section class="section_9">
-                <p class="disccontentbox discdesc">
-                    Inland Valley boasts one of the most active and athletic communities in the country. 4 times national america football champions, you don't want to mess with her NBA champions. Sport is a lifestyle in Inland Valley.
-                </p>
-            </section>
-            <script src="js/lazyload.jsx"></script>
-            <section class="section_10">
-                <p id="days">
-                    Welcome! It has been&nbsp;<span id="visits"></span>&nbsp;day(s) since you last visited.
-                </p>
-            </section>
-            <script src="js/visits.js"></script>
-        </main>
+            </div>
 
+            <img src="images/placeholder.png" data-src="images/plaza800.jpg" alt="Ibom Plaza" />
+            <div class="light-blue">
+                <h4>Ibom Plaza</h4>
+                <p>
+                    Located in the heart of Uyo, Ibom plaza is a wonderful place for people to meet and connect. It has a clean open environment with seats made like staircase. A big screen is also available here for residents to watch sports or other events together. This
+                    was created to increase bond amongst residents
+                </p>
+            </div>
 
-        <footer>
-            <section id="footer_top">
-                <div id="footer_logo">
-                    <img class="logo" src="images/logo_small.webp" alt="a logo of inland valley chamber" width="150" height="75">
-                </div>
-                <div id="footer_location">
-                    <h2>Inland Valley Chamber of Commerce</h2>
-                    <h3>15 Admiralty Way</h3>
-                    <h3>Inland valley, Ohio 200223</h3>
-                </div>
-                <div id="footer_contact">
-                    <p>info@inlandvalley.org</p>
-                    <p>(+234) 90-777-1659</p>
-                    <p id="footerlink"><a href="https://goo.gl/maps/3kKYTGvDEsUHw8PT6">Location Map</a></p>
-                </div>
-            </section>
+            <img src="images/placeholder.png" data-src="images/tropicana800.jpg" alt="Ibom Tropicana" />
+            <div class="blue">
+                <h4>Ibom Tropicana</h4>
+                <p>
+                    Surrounded by banks and a military barrack, this mall is at the right spot. It was recently renovated in 2020 to make more space in it. It has everything a mall has from hair saloon, escalators, cinemas to several shopping sections to make purchases
+                </p>
+            </div>
 
-            <hr id="footer_line">
-            <section id="footer_under">
-                <section id="footer_bottom">
-                    <p>&copy;<span id="year">2022</span> Inland Valley Chamber </p>
-                    <p>Elerunndu O. Victor</p>
-                    <p>WDD 230 Project</p>
-                </section>
-                <section id="footer_last">
-                    <p>Last Modified: <span id="lastModified"></span>
-                        <script>
-                            const d = new Date();
-                            document.getElementById("lastModified").innerHTML = d;
-                        </script>
-                    </p>
-                </section>
-            </section>
-        </footer>
-    </div>
+            <img src="images/placeholder.png" data-src="images/stadium800.jpg" alt="Ibom Stadium" />
+            <div class="light-blue">
+                <h4>Ibom Stadium</h4>
+                <p>
+                    The stadium which currently is the most sophisticated in Nigeria was a goodbye gift by the last governor to the state. It is also referred to as the the "Nest of Champions" and the seat capacity is 35,000. A lot of international matches occur here and
+                    can be fun for sport lovers
+                </p>
+            </div>
+
+            <img src="images/placeholder.png" data-src="images/elibrary800.jpg" alt="Ibom E-library" />
+            <div class="blue">
+                <h4>Ibom E-library</h4>
+                <p>
+                    The Ibom Electronic library takes library experience to the next level, being the first in Africa as at the time it was constructed. The library has a capacity of over 1500 computer seats and each has software that has the latest information on all aspects
+                    of study
+                </p>
+            </div>
+
+            <img src="images/placeholder.png" data-src="images/uniuyo800.jpg" alt="University of Uyo" />
+            <div class="light-blue">
+                <h4>University of Uyo</h4>
+
+                <p>
+                    Although being a federal university, it resides in the Nwaniba area of Uyo and can be a great place to visit. The department of Art does a great job to litre the school campus with wonderful sculptures they make from their projects and they look pleasing
+                    to the eyes
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <a href="index.html"><img src="images/logo.png" alt="Ibadan Chamber of Commerce logo" /></a>
+                <h3>Chamber of Commerce</h3>
+                <p>
+                    4 Agodi Gardens, Ibadan<br /> Oyo State, Nigeria
+                </p>
+                <p>
+                    +234-907-777-1659
+                </p>
+            </div>
+            <div class="contact">
+                <a href="mailto:info@ibadanchamber.com"><img src="images/email.PNG" alt="email" /></a>
+                <a href="https://www.linkedin.com/"><img src="images/linkedin.PNG" alt="email" /></a>
+                <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook image" /></a>
+                <a href="https://goo.gl/maps/HcazuXDALjwHDhrD6" target="_blank"><img src="images/location.png"></a>
+            </div>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber <br />
+            Elerunndu Victor Oluwapelumi <br />
+            WDD 230 Project <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Ibadan Chamber | Elerunndu Victor
+            Oluwapelumi | WDD 230 Project | Last Modification:
+            <span class="fMod"></span>
+          </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/lazyload.js"></script>
 </body>
 
 </html>

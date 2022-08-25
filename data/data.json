@@ -1,175 +1,168 @@
 {
-    "directory": [{
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_4.webp",
+    "news": [{
+            "title": "Udom cautions rulers against igniting crisis",
+            "link": "https://guardian.ng/news/akwa-ibom-government-cautions-traditional-rulers-against-igniting-crisis/"
+        },
+        {
+            "title": "Sir Vic thrills fans at Uyo WAR Concert",
+            "link": "https://guardian.ng/saturday-magazine/weekend-beats/sir-vic-thrills-fans-at-uyo-war-concert/"
+        },
+        {
+            "title": "Over 120 players subscribe to Daily Trust golf",
+            "link": "https://guardian.ng/sport/over-120-players-subscribe-to-daily-trust-golf-tourney-in-uyo/"
+        },
+        {
+            "title": "FIFA slams 2-year ban on Cofine FC coach",
+            "link": "https://guardian.ng/sport/fifa-slams-2-year-ban-on-cofine-fc-coach-nff-says/"
+        },
+        {
+            "title": "Court acquits former council chair of murder charge",
+            "link": "https://guardian.ng/features/court-acquits-former-council-chair-of-murder-charge/"
+        },
+        {
+            "title": "Africa’s tourism development tops agenda",
+            "link": "https://guardian.ng/saturday-magazine/africas-tourism-development-tops-agenda-as-hotel-managers-meet-in-uyo/"
+        },
+        {
+            "title": "N11m fraud:EFCC arrests company director",
+            "link": "https://guardian.ng/news/efcc-arrests-company-director-over-alleged-n11-5m-investment-fraud/"
+        },
+        {
+            "title": "Inflationary pressure stopped economic growth in 2021",
+            "link": "https://guardian.ng/business-services/inflationary-pressure-took-shine-off-economic-growth-in-2021/"
+        }
+    ],
+    "businesses": [{
             "name": "China Town Minimart",
-            "streetaddress": "33, China Town",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-810-345-6245",
+            "email": "info@townminimart.com",
+            "decscription": "Home for easy meal and drinks pickup",
+            "imageurl": "images/spotlight_4.webp",
+            "street": "4 Edet Akpan Avenue",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0813 588 0220",
             "website": "https://www.minichina.com",
-            "businesstype": "Minimart/Store",
-            "yearopened": "1998",
-            "founder": "Ernestina Ewudzie",
-            "memberlevel": "Non-Profit"
+            "membership": "gold"
         },
         {
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_5.webp",
-            "name": "Big Sam's Burger and Fries",
-            "streetaddress": "68, Inland Avenue",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-810-589-3206",
-            "website": "https://www.samsburger.com",
-            "businesstype": "Fast Food Restaurant",
-            "yearopened": "2004",
-            "founder": "Samwise Gamgee",
-            "memberlevel": "Bronze"
-
+            "name": "Crunchies Fast Food",
+            "email": "info@crunchiesltd.com",
+            "decscription": "Home of mouth watery delicacies and dishes",
+            "imageurl": "images/logos/crunch.jpg",
+            "street": "142 Aka Road",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0907 703 8947",
+            "website": "https://crunchiesltd.com/",
+            "membership": "gold"
         },
         {
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_1.webp",
-            "name": "Spencer's Real Estate",
-            "streetaddress": "95, Business Avenue",
-            "city": "In Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-810-234-981",
-            "website": "https://www.estatewithspencer.com",
-            "businesstype": "Real Estate and Properties",
-            "yearopened": "1995",
-            "founder": "Comrade Spencer Babashina",
-            "memberlevel": "Gold"
+            "name": "Whitebridge Global Ltd",
+            "email": "info@whitebridge.com",
+            "decscription": "All legal consultations with top professionals",
+            "imageurl": "images/logos/watbridge.jpg",
+            "street": "114 Udo Udoma Avenue",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0803 749 2675",
+            "website": "whitebridgeconsulting.com",
+            "membership": "gold"
         },
         {
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_2.webp",
-            "name": "Code With Khalid",
-            "streetaddress": "24, Business Avenue",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)907-777-1659",
-            "website": "https://www.codewithkhalid.com",
-            "businesstype": "Software Engineering Bootcamp",
-            "yearopened": "2010",
-            "founder": "Comrade Khalid Abesh",
-            "memberlevel": "Silver"
+            "name": "IBBIL Computers",
+            "email": "info@ibbilcomputers.com",
+            "decscription": "Wholesale of computers and accessories",
+            "imageurl": "images/logos/ibbil.jpg",
+            "street": "80 Aka Road",
+            "city": " Uyo, Akwa Ibom Nigeria",
+            "number": "0708 543 4434",
+            "website": "http://ibbilcomputers.com",
+            "membership": "gold"
         },
         {
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_3.webp",
-            "name": "Suave's River Rafting",
-            "streetaddress": "10, River-Side",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-901-456-1597",
-            "website": "https://www.advnturewithsuave.com",
-            "businesstype": "River Rafting",
-            "yearopened": "2014",
-            "founder": "Comrade Suave Abonilejops",
-            "memberlevel": "Silver"
-
+            "name": "Kilimanjaro Restaurants",
+            "email": "info@kilimanjaro.com",
+            "decscription": "Easy stop for intercontinental dishes",
+            "imageurl": "images/logos/kili.jpg",
+            "street": "165 Oron Road",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0807 509 1477",
+            "website": "https//kilimanjaro-restaurants.com/",
+            "membership": "silver"
         },
         {
-            "name": "The Cool JJJ's",
-            "streetaddress": "58, Allen Avenue",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-803-524-1481",
-            "website": "https://www.cooljjj.com",
-            "businesstype": "Music Store",
-            "yearopened": "1995",
-            "founder": "Johnny Drille",
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_6.webp",
-            "memberlevel": "Bronze"
-
+            "name": "Starthub Technology Ltd",
+            "email": "info@starthub.com.ng",
+            "decscription": "Website development and programming hub",
+            "imageurl": "images/logos/starthub.jpg",
+            "street": "Suite G11, Ibom e-Library",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0909 000 9216",
+            "website": "https://starthub.com.ng",
+            "membership": "silver"
         },
         {
-            "name": "Jeff's Steak House",
-            "streetaddress": "48, Marshal Lane, 2nd Street",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-906-434-6000",
-            "website": "https://www.jsteaks.com",
-            "businesstype": "Restaurant and Bar",
-            "yearopened": "2012",
-            "founder": "Jeffrey Logain Ablar",
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_7.webp",
-            "memberlevel": "Gold"
+            "name": "Radiant Oak Intelligence",
+            "email": "info@radiantoakng.com",
+            "decscription": "Premium private security personnels at your service",
+            "imageurl": "images/logos/oak.jpg",
+            "street": "135A Edet Akpan Avenue",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0810 109 7101",
+            "website": "http://www.radiantoakng.com",
+            "membership": "np"
         },
         {
-            "name": "Krudger Bacon and Rolls",
-            "streetaddress": "58, Marshal Lane, 2nd Street",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-801-334-3964",
-            "website": "https://www.krudgerbb.com",
-            "businesstype": "Fast Food Restaurant",
-            "yearopened": "1998",
-            "founder": "Krudger Anubis",
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_8.webp",
-            "memberlevel": "Gold"
-
+            "name": "PHED Uyo",
+            "email": "info@phed.com.ng",
+            "decscription": "Electricity distribution made easy",
+            "imageurl": "images/logos/phd.jpg",
+            "street": "No.3 Ekpeyong Street",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0805 029 3215",
+            "website": "http://www.phed.com.ng",
+            "membership": "bronze"
         },
         {
-            "name": "Coleman Hairchanics",
-            "streetaddress": "53, Mary Slessor Avenue",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-904-456-0089",
-            "website": "https://www.hairchanics.com",
-            "businesstype": "Barber Shop",
-            "yearopened": "1999",
-            "founder": "Coleman Richards",
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_9.webp",
-            "memberlevel": "Bronze"
+            "name": "ICMA Services",
+            "email": "info@icmaservices.com",
+            "decscription": "Home cleaning and event management",
+            "imageurl": "images/logos/icma.jpg",
+            "street": "PLot 21, Unit G, Ewet Housing Estate",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0901 413 6067",
+            "website": "http://www.icmaservices.com",
+            "membership": "bronze"
         },
         {
-            "name": "Beyonda Vintage Clothing",
-            "streetaddress": "10, Business Avenue",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-704-113-5690",
-            "website": "https://www.beyondavintage.org",
-            "businesstype": "Vintage Clothing Store",
-            "yearopened": "2004",
-            "founder": "Beyonda Philis",
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_10.webp",
-            "memberlevel": "Gold"
+            "name": "Accent Digital Resources",
+            "email": "info@digitalresources.com",
+            "decscription": "Premium photo edits and collage",
+            "imageurl": "images/logos/accent.jpg",
+            "street": "28B Itu Road",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0808 678 3266",
+            "website": "http://www.accentdigitalresources.com",
+            "membership": "bronze"
         },
         {
-            "name": "FD12 Fitness Center",
-            "streetaddress": "34, Sports Avenue",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-705-855-1659",
-            "website": "https://www.fd12fitness.com",
-            "businesstype": "Fitness Center",
-            "yearopened": "2010",
-            "founder": "Frosh Don",
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_11.webp",
-            "memberlevel": "Silver"
+            "name": "Ibomstore",
+            "email": "info@ibomstore.com",
+            "decscription": "Governments subsidized goods from china",
+            "imageurl": "images/logos/ibomstore.jpg",
+            "street": "No 11 Iboko Street",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "07011 110 034",
+            "website": "https://www.ibomstore.com",
+            "membership": "bronze"
         },
         {
-            "name": "Saat Tamir SERvisi",
-            "streetaddress": " 20000 Walnut Street",
-            "city": "Inland Valley",
-            "state": "Ohio",
-            "zipcode": 200223,
-            "phone": "(234)-818-069-5213",
-            "website": "https://www.saatservisi.com",
-            "businesstype": "Electronics Store",
-            "yearopened": "2015",
-            "founder": "Saat Tamir Yusuf",
-            "imageurl": "https://Khalid2424.github.io/chamber/images/spotlight_12.webp",
-            "memberlevel": "Non-Profit"
+            "name": "AA Car Rescue",
+            "email": "info@aarescuenigeria.com",
+            "decscription": "Easy car rescue anyday, anynight, anywhere",
+            "imageurl": "images/logos/aarescue.jpg",
+            "street": "132 Nsikak Eduok Avenue",
+            "city": "Uyo, Akwa Ibom Nigeria",
+            "number": "0802 730 6799",
+            "website": "http://www.aarescuenigeria.com",
+            "membership": "silver"
         }
     ]
 }
